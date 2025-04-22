@@ -1,0 +1,751 @@
+fileFormatVersion: 2
+guid: d5685a0ab1b41364f908278cdb7fcce8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_0
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 3262
+        width: 2108
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63045a762cba2ef41ba90b17b66c2e19
+      internalID: 681010226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2534
+        width: 2093
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3216c5f202a0940a806c8b3c34510e
+      internalID: 1016050039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1778
+        width: 2092
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9374c719a9a7112448df6d9a3fccfe45
+      internalID: -1922788104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1075
+        width: 2079
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 8, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1a311b45f63d440bd79f874461e7be
+      internalID: 1593220566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_4
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 70
+        width: 2058
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00aa871a02318d4895d1e0becdead6a
+      internalID: 1110123466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_5
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 588
+        width: 2140
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1019a96eda589846900554111097ad9
+      internalID: 678019534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_6
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 3286
+        width: 2108
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c04145df0badf46a5434eaf3e5372b
+      internalID: 1956577289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_7
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 2554
+        width: 2088
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40a86b6361933a4e91a545bbe79f3b7
+      internalID: -1000869214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_8
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 1802
+        width: 2092
+        height: 716
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0f44710c30b464aa1a21526e7876c5
+      internalID: 1120232956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_9
+      rect:
+        serializedVersion: 2
+        x: 2463
+        y: 1092
+        width: 2079
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a60a00a35a51945bcf5b2d7d3784ae
+      internalID: -21285063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_10
+      rect:
+        serializedVersion: 2
+        x: 4742
+        y: 3602
+        width: 2028
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84643308e17edfe40a0ed8768a03d61e
+      internalID: 798564782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_11
+      rect:
+        serializedVersion: 2
+        x: 4738
+        y: 3178
+        width: 2032
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdf74fcb30105e45b7800a5ba20fa0d
+      internalID: 2044731434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_12
+      rect:
+        serializedVersion: 2
+        x: 4742
+        y: 2754
+        width: 2032
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d5b578392fc8548b760f70c31f668b
+      internalID: 1019651019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_13
+      rect:
+        serializedVersion: 2
+        x: 4751
+        y: 1932
+        width: 2027
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61df67edb7798c4d94ce1bfa2fb50dc
+      internalID: 794923228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_14
+      rect:
+        serializedVersion: 2
+        x: 4746
+        y: 2346
+        width: 2028
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f310ef6c7f150f14e95e194623b71b17
+      internalID: -458853168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_15
+      rect:
+        serializedVersion: 2
+        x: 6850
+        y: 1426
+        width: 646
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 4, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1380ff5315060bc4b89d87ccd2b5452f
+      internalID: 72832614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_16
+      rect:
+        serializedVersion: 2
+        x: 7518
+        y: 1430
+        width: 652
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4080c5210d29d449b350734bcb39b8
+      internalID: 716064234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_17
+      rect:
+        serializedVersion: 2
+        x: 7606
+        y: 1790
+        width: 544
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739d924977873b543972fcd9248a4956
+      internalID: -96776495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_18
+      rect:
+        serializedVersion: 2
+        x: 7002
+        y: 1802
+        width: 544
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbec3569a5d82a40bb27ae08453930e
+      internalID: -1236463716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_19
+      rect:
+        serializedVersion: 2
+        x: 6930
+        y: 2218
+        width: 548
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdde9a4965e97e1458143a2b4c4f252b
+      internalID: 1633178383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_20
+      rect:
+        serializedVersion: 2
+        x: 7590
+        y: 2218
+        width: 548
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a227710ecb3b5b34dbd9584882331fa2
+      internalID: -1590656297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_21
+      rect:
+        serializedVersion: 2
+        x: 6890
+        y: 2698
+        width: 624
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0040ddb331041ea4198e2ee9cd7f1be0
+      internalID: -493662606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_22
+      rect:
+        serializedVersion: 2
+        x: 7550
+        y: 2694
+        width: 626
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf784fe759148840994aa0e9511a653
+      internalID: -99495761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_23
+      rect:
+        serializedVersion: 2
+        x: 7643
+        y: 866
+        width: 511
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd930e8a86b4155458cca5ee668c8693
+      internalID: -1358640300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_24
+      rect:
+        serializedVersion: 2
+        x: 7174
+        y: 60
+        width: 396
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da807862830cbd843b30e23545703b19
+      internalID: 7367522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_25
+      rect:
+        serializedVersion: 2
+        x: 7758
+        y: 58
+        width: 392
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd37ad1c02540b46af609fc3e2f7960
+      internalID: -41750119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones y sus animaciones@4x_26
+      rect:
+        serializedVersion: 2
+        x: 6590
+        y: 50
+        width: 392
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26977e9c513db944eac4e42ec8176354
+      internalID: -1459197787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bef21541525790041b927088f2aa30b9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      botones y sus animaciones@4x_0: 681010226
+      botones y sus animaciones@4x_1: 1016050039
+      botones y sus animaciones@4x_10: 798564782
+      botones y sus animaciones@4x_11: 2044731434
+      botones y sus animaciones@4x_12: 1019651019
+      botones y sus animaciones@4x_13: 794923228
+      botones y sus animaciones@4x_14: -458853168
+      botones y sus animaciones@4x_15: 72832614
+      botones y sus animaciones@4x_16: 716064234
+      botones y sus animaciones@4x_17: -96776495
+      botones y sus animaciones@4x_18: -1236463716
+      botones y sus animaciones@4x_19: 1633178383
+      botones y sus animaciones@4x_2: -1922788104
+      botones y sus animaciones@4x_20: -1590656297
+      botones y sus animaciones@4x_21: -493662606
+      botones y sus animaciones@4x_22: -99495761
+      botones y sus animaciones@4x_23: -1358640300
+      botones y sus animaciones@4x_24: 7367522
+      botones y sus animaciones@4x_25: -41750119
+      botones y sus animaciones@4x_26: -1459197787
+      botones y sus animaciones@4x_3: 1593220566
+      botones y sus animaciones@4x_4: 1110123466
+      botones y sus animaciones@4x_5: 678019534
+      botones y sus animaciones@4x_6: 1956577289
+      botones y sus animaciones@4x_7: -1000869214
+      botones y sus animaciones@4x_8: 1120232956
+      botones y sus animaciones@4x_9: -21285063
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
