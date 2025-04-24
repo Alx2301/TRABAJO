@@ -20,14 +20,15 @@ public class GestorMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Menu Cargar Partida");
     }
-    public void CambiarCre()
+    public void CambiarCreditos()
     {
         SceneManager.LoadScene("Menu Creditos");
     }
-    public void CambiarMenu() 
+    public void CambiarMenuPrincipal() 
     {
         SceneManager.LoadScene("Menu Principal");
     }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
