@@ -1,0 +1,866 @@
+fileFormatVersion: 2
+guid: 1957a52590824d742a7c7095f31d11af
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_0"
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 940
+        width: 96
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6124b07d33a2ddc479d58c7d11608b1f
+      internalID: -1665961513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_1"
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 947
+        width: 97
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8a4046de0aa3948aa75bb03d9153c8
+      internalID: 1826595601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_2"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 951
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619236afbdc027a4ea2413802782c455
+      internalID: 1440955025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_3"
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 945
+        width: 286
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e45dad811baa141a8b4ae0b8e8bfbe
+      internalID: 597130919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_4"
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 486
+        width: 829
+        height: 575
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e72bd4f7eed4364ca9e678d2e921806
+      internalID: -1325857602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_5"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 836
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60f7692dec874a4f856065ce61ee1dc
+      internalID: -640748111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_6"
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 827
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f9c89c4e4c84e42b24c1cb33a8474d
+      internalID: -1664326444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_7"
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 835
+        width: 289
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1d545d73c897343a246bcb79a32711
+      internalID: -304036784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_8"
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 853
+        width: 96
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040c58186e79ba644ad127a460350b4a
+      internalID: -515227068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_9"
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 782
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2208555221152574c9365132efbdd132
+      internalID: -729712902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_10"
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 780
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa5b7bcf1b15834ba73db77d7e4a5d1
+      internalID: -1816645005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_11"
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 691
+        width: 459
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb992dac656c2d42b98add1708e0910
+      internalID: 1365027777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_12"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 711
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a982d19c230dbe4418f4404b01622449
+      internalID: -1497068291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_13"
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 646
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9dbdf516cf2684b9cccc060522a69e
+      internalID: 1117056334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_14"
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 487
+        width: 161
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8c77173f06b394481b578bbf16cf4c
+      internalID: 649682282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_15"
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 563
+        width: 371
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4251721ea1cdd604f9c13c3c15f4d52a
+      internalID: -812584188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_16"
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 525
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ad20a1d5738f04ba5c4623ff1dcea2
+      internalID: -860906113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_17"
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 453
+        width: 190
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc6c7d54f61b924bba35c4816e6800b
+      internalID: -552309864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_18"
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 466
+        width: 262
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7f700d5fa7105409a0c0fc2bf8bf79
+      internalID: -608727722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_19"
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 405
+        width: 106
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6f55c5e12ce0c4caa7ad965d538194
+      internalID: 1739327775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_20"
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 348
+        width: 105
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b69e1514f71ee4d9add7d435c992ab
+      internalID: 253570545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_21"
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 323
+        width: 328
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ef987e8ab1b96408766704549ee330
+      internalID: 999194953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_22"
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 27
+        width: 292
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c72785da39ff748b2ef499d6c93af2
+      internalID: 522349237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_23"
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 341
+        width: 80
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7795db445f95b4b8cfc09937644b34
+      internalID: -1359454826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_24"
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 370
+        width: 497
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1269656499226134ba303902a969f277
+      internalID: -1494355879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_25"
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 251
+        width: 335
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967125d719f650248b4a35399aed35c0
+      internalID: 325994997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_26"
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 278
+        width: 97
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e79cf411c82da4a8c57aeb4a3ae4f0
+      internalID: -5189815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_27"
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 315
+        width: 495
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e70e5a83a9873945b23a2ab99167ecb
+      internalID: 991965044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_28"
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 136
+        width: 422
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ea8ea304d1f504dbb5ab9e1a90e3f9
+      internalID: -523885921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_29"
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 153
+        width: 105
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c051e2096416a43b78e4447e817865
+      internalID: 1527253281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_30"
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 18
+        width: 355
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52e3994e9282ba4aae11e857c887f0a
+      internalID: -1536203488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (MANDO) 1_31"
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 33
+        width: 105
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03065b7baa9e895489c8c9d7f2a2c27e
+      internalID: -813421267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6aad1b719277c084cbcb6d815e6a63e5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "botones de configuraci\xF3n (MANDO) 1_0": -1665961513
+      "botones de configuraci\xF3n (MANDO) 1_1": 1826595601
+      "botones de configuraci\xF3n (MANDO) 1_10": -1816645005
+      "botones de configuraci\xF3n (MANDO) 1_11": 1365027777
+      "botones de configuraci\xF3n (MANDO) 1_12": -1497068291
+      "botones de configuraci\xF3n (MANDO) 1_13": 1117056334
+      "botones de configuraci\xF3n (MANDO) 1_14": 649682282
+      "botones de configuraci\xF3n (MANDO) 1_15": -812584188
+      "botones de configuraci\xF3n (MANDO) 1_16": -860906113
+      "botones de configuraci\xF3n (MANDO) 1_17": -552309864
+      "botones de configuraci\xF3n (MANDO) 1_18": -608727722
+      "botones de configuraci\xF3n (MANDO) 1_19": 1739327775
+      "botones de configuraci\xF3n (MANDO) 1_2": 1440955025
+      "botones de configuraci\xF3n (MANDO) 1_20": 253570545
+      "botones de configuraci\xF3n (MANDO) 1_21": 999194953
+      "botones de configuraci\xF3n (MANDO) 1_22": 522349237
+      "botones de configuraci\xF3n (MANDO) 1_23": -1359454826
+      "botones de configuraci\xF3n (MANDO) 1_24": -1494355879
+      "botones de configuraci\xF3n (MANDO) 1_25": 325994997
+      "botones de configuraci\xF3n (MANDO) 1_26": -5189815
+      "botones de configuraci\xF3n (MANDO) 1_27": 991965044
+      "botones de configuraci\xF3n (MANDO) 1_28": -523885921
+      "botones de configuraci\xF3n (MANDO) 1_29": 1527253281
+      "botones de configuraci\xF3n (MANDO) 1_3": 597130919
+      "botones de configuraci\xF3n (MANDO) 1_30": -1536203488
+      "botones de configuraci\xF3n (MANDO) 1_31": -813421267
+      "botones de configuraci\xF3n (MANDO) 1_4": -1325857602
+      "botones de configuraci\xF3n (MANDO) 1_5": -640748111
+      "botones de configuraci\xF3n (MANDO) 1_6": -1664326444
+      "botones de configuraci\xF3n (MANDO) 1_7": -304036784
+      "botones de configuraci\xF3n (MANDO) 1_8": -515227068
+      "botones de configuraci\xF3n (MANDO) 1_9": -729712902
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

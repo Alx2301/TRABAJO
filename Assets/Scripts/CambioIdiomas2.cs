@@ -9,25 +9,27 @@ using UnityEngine.SceneManagement;
 public class CambioIdiomas1 : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public TextMeshProUGUI botonEspanoltext;
-    public TextMeshProUGUI botonInglestext;
-    public TextMeshProUGUI botonGallegotext;
-    public TextMeshProUGUI tituloidiomastext;
+    public TextMeshProUGUI botonnuevopartidatext;
+    public TextMeshProUGUI botoncargarpartidatext;
+    public TextMeshProUGUI botonconfiguraciontext;
+    public TextMeshProUGUI botonsalidatext;
+    public TextMeshProUGUI botoncreditostext;
+
     public int i = 0;
     private int estadoOpciones;
     private int seleccion;
 
 
-    string[,] matrizIdiomas = new string[3, 4]
+    string[,] matrizIdiomas = new string[3, 5]
     {
-        {"Español","Inglés","Gallego","Idiomas"},
-        {"Spanish","English","Galician","Lenguages"},
-        {"Español","Inglés","Galego","Idiomas"}
+        {"Nueva Partida","Cargar Partida","Configuración","Salida","Créditos"},
+        {"New game","Load game","Configuration","Exit", "Credits"},
+        {"Nova Partida","Xogo de carga","Configuración","Saida", "Créditos"}
     };
     void Start()
     {
-        botonEspanoltext.text = matrizIdiomas[i,0];
-        botonGallegotext.text = matrizIdiomas[i,2];
+        botonnuevopartidatext.text = matrizIdiomas[i,0];
+        botoncargarpartidatext.text = matrizIdiomas[i,2];
         botonInglestext.text = matrizIdiomas[i,1];
         tituloidiomastext.text = matrizIdiomas[i,3];
 
@@ -52,7 +54,7 @@ public class CambioIdiomas1 : MonoBehaviour
 
     void ActualizarTextos()
     {
-        botonEspanoltext.text = matrizIdiomas[i, 0];
+        botonnuevopartidatext.text = matrizIdiomas[i, 0];
         botonInglestext.text = matrizIdiomas[i, 1];
         botonGallegotext.text = matrizIdiomas[i, 2];
         tituloidiomastext.text = matrizIdiomas[i, 3];

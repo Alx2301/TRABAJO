@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: 1a08256a4d232e54f98e33e5ab3a50b8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_0"
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 489
+        width: 1146
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8366648a0304c34c91a2cf034069f15
+      internalID: 601969113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_1"
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 962
+        width: 135
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b837d0d90005f4382ab1fe2f5e9da4
+      internalID: -2110555028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_2"
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 981
+        width: 299
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cf4ea7789dae04fba5a8010d36d6b3
+      internalID: -2023253647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_3"
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 989
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0ed62b8b82f884b8fe9f7de59d1c87
+      internalID: 67649981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_4"
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 989
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88184aa55fa428f46ada5874c1cbac12
+      internalID: -806527153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_5"
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 988
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f0bb9d8b8c2054cbefff5a8718a02e
+      internalID: 1838639479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_6"
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 989
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b385a211f7933345bf1d7fca0bcce16
+      internalID: 762034130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_7"
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 990
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df1873fb75186841a719caf14a3a7e4
+      internalID: -1860072602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_8"
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 989
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d5896d20b3a804e80ab131c60d4030
+      internalID: 1190649146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_9"
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 984
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44db5040ef1164845a59b85e28169967
+      internalID: -1059775623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_10"
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 989
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f377840c126b6a843be58fa6268cadbc
+      internalID: 250002151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_11"
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 989
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47eba9c2e821dfa439cc9dbb99ccc873
+      internalID: -533928924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_12"
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 495
+        width: 192
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97044b6bdb155dc4eb272f107d5852ca
+      internalID: 262472985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_13"
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 315
+        width: 615
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e947ef75fcd8944928e1d7dec96b2d
+      internalID: -297852968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_14"
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 359
+        width: 519
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15468702fc9d14b41a7d5794d62fae01
+      internalID: -1416432158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_15"
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 188
+        width: 521
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f234ba55828f7141920636f80ab94a2
+      internalID: 1898118754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (TECLAS) 1_16"
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 26
+        width: 511
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa90a623c4f38f348a5512269bd4b0e8
+      internalID: 160596511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 043d45aeaeb72274d901a184c086d9a0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "botones de configuraci\xF3n (TECLAS) 1_0": 601969113
+      "botones de configuraci\xF3n (TECLAS) 1_1": -2110555028
+      "botones de configuraci\xF3n (TECLAS) 1_10": 250002151
+      "botones de configuraci\xF3n (TECLAS) 1_11": -533928924
+      "botones de configuraci\xF3n (TECLAS) 1_12": 262472985
+      "botones de configuraci\xF3n (TECLAS) 1_13": -297852968
+      "botones de configuraci\xF3n (TECLAS) 1_14": -1416432158
+      "botones de configuraci\xF3n (TECLAS) 1_15": 1898118754
+      "botones de configuraci\xF3n (TECLAS) 1_16": 160596511
+      "botones de configuraci\xF3n (TECLAS) 1_2": -2023253647
+      "botones de configuraci\xF3n (TECLAS) 1_3": 67649981
+      "botones de configuraci\xF3n (TECLAS) 1_4": -806527153
+      "botones de configuraci\xF3n (TECLAS) 1_5": 1838639479
+      "botones de configuraci\xF3n (TECLAS) 1_6": 762034130
+      "botones de configuraci\xF3n (TECLAS) 1_7": -1860072602
+      "botones de configuraci\xF3n (TECLAS) 1_8": 1190649146
+      "botones de configuraci\xF3n (TECLAS) 1_9": -1059775623
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

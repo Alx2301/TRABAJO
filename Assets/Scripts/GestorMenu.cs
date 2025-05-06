@@ -12,9 +12,25 @@ public class GestorMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Menu Nueva Partida");
     }
-    public void CambiarOp()
+    public void CambiarOpIdiomas()
     {
-        SceneManager.LoadScene("Menu Opciones");
+        SceneManager.LoadScene("Menu opciones idiomas");
+    }
+    public void CambiarOpSonido()
+    {
+        SceneManager.LoadScene("Menu opciones sonido");
+    }
+    public void CambiarOpTeclas()
+    {
+        SceneManager.LoadScene("Menu opciones teclas");
+    }
+    public void CambiarOpMando() 
+    {
+        SceneManager.LoadScene("Menu opciones mando");
+    }
+    public void CambiarOpGraficos()
+    {
+        SceneManager.LoadScene("Menu opciones graficos");
     }
     public void CambiarCarP()
     {
