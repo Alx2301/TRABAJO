@@ -13,23 +13,35 @@ public class CambioIdiomas1 : MonoBehaviour
     public TextMeshProUGUI botonInglestext;
     public TextMeshProUGUI botonGallegotext;
     public TextMeshProUGUI tituloidiomastext;
+    public TextMeshProUGUI titulointerfaztext;
+    public TextMeshProUGUI botondiaEspanoltext;
+    public TextMeshProUGUI botondiaInglestext;
+    public TextMeshProUGUI botondiaGallegotext;
+    public TextMeshProUGUI titulodialogotext;
+    public TextMeshProUGUI botonvolvertext;
+
+
     public int i = 0;
-    private int estadoOpciones;
-    private int seleccion;
 
 
-    string[,] matrizIdiomas = new string[3, 4]
+    string[,] matrizIdiomas = new string[3, 7]
     {
-        {"Español","Inglés","Gallego","Idiomas"},
-        {"Spanish","English","Galician","Lenguages"},
-        {"Español","Inglés","Galego","Idiomas"}
+        {"Español","Inglés","Gallego","Idiomas", "Interfaz", "Diálogo","Volver"},
+        {"Spanish","English","Galician","Lenguages", "Interface", "Dialogue","Back"},
+        {"Español","Inglés","Galego","Idiomas", "Interface", "Diálogo","Atras"}
     };
     void Start()
     {
-        botonEspanoltext.text = matrizIdiomas[i,0];
-        botonGallegotext.text = matrizIdiomas[i,2];
-        botonInglestext.text = matrizIdiomas[i,1];
-        tituloidiomastext.text = matrizIdiomas[i,3];
+        botonEspanoltext.text = matrizIdiomas[i, 0];
+        botonInglestext.text = matrizIdiomas[i, 1];
+        botonGallegotext.text = matrizIdiomas[i, 2];
+        tituloidiomastext.text = matrizIdiomas[i, 3];
+        titulointerfaztext.text = matrizIdiomas[i, 4];
+        botondiaEspanoltext.text = matrizIdiomas[i, 0];
+        botondiaInglestext.text = matrizIdiomas[i, 1];
+        botondiaGallegotext.text = matrizIdiomas[i, 2];
+        titulodialogotext.text = matrizIdiomas[i, 5];
+        botonvolvertext.text = matrizIdiomas[i, 6];
 
         if (PlayerPrefs.HasKey("Idioma"))
         {
@@ -56,6 +68,19 @@ public class CambioIdiomas1 : MonoBehaviour
         botonInglestext.text = matrizIdiomas[i, 1];
         botonGallegotext.text = matrizIdiomas[i, 2];
         tituloidiomastext.text = matrizIdiomas[i, 3];
+        titulointerfaztext.text = matrizIdiomas[i,4];
+        botondiaEspanoltext.text = matrizIdiomas[i, 0];
+        botondiaInglestext.text = matrizIdiomas[i, 1];
+        botondiaGallegotext.text = matrizIdiomas[i, 2];
+        titulodialogotext.text = matrizIdiomas[i, 5];
+        botonvolvertext.text = matrizIdiomas[i, 6];
+
+}
+
+    void GuardarDatos ()
+    {
+        PlayerPrefs.SetInt("Idioma", i);
+        PlayerPrefs.Save();
     }
 
     public void Espanol()

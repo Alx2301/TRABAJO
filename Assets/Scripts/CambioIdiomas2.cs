@@ -5,33 +5,30 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-
-public class CambioIdiomas1 : MonoBehaviour
+//poner el valor del cambio de idiomas 1 al 2, para cuando se cambie el idioma en las opciones, se cambie en todas las pantallas (escenas)
+public class CambioIdiomas2 : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public TextMeshProUGUI botonnuevopartidatext;
-    public TextMeshProUGUI botoncargarpartidatext;
-    public TextMeshProUGUI botonconfiguraciontext;
-    public TextMeshProUGUI botonsalidatext;
-    public TextMeshProUGUI botoncreditostext;
+    public TextMeshProUGUI titulovolumentext;
+    public TextMeshProUGUI titulomusicatext;
+    public TextMeshProUGUI titulodialogostext;
+    public TextMeshProUGUI tituloefectostext;
 
     public int i = 0;
-    private int estadoOpciones;
-    private int seleccion;
 
 
     string[,] matrizIdiomas = new string[3, 5]
     {
-        {"Nueva Partida","Cargar Partida","Configuración","Salida","Créditos"},
-        {"New game","Load game","Configuration","Exit", "Credits"},
-        {"Nova Partida","Xogo de carga","Configuración","Saida", "Créditos"}
+        {"Volumen","Música","Diálogo","Efectos","Volver"},
+        {"Volumen","Music","Dialogue","Efects","Back"},
+        {"Volumen","Música","Diálogo","Efectos","Atras"}
     };
     void Start()
     {
-        botonnuevopartidatext.text = matrizIdiomas[i,0];
-        botoncargarpartidatext.text = matrizIdiomas[i,2];
-        botonInglestext.text = matrizIdiomas[i,1];
-        tituloidiomastext.text = matrizIdiomas[i,3];
+        titulovolumentext.text = matrizIdiomas[i,0];
+        titulomusicatext.text = matrizIdiomas[i, 1];
+        titulodialogostext.text = matrizIdiomas[i, 2];
+        tituloefectostext.text = matrizIdiomas[i, 3];
 
         if (PlayerPrefs.HasKey("Idioma"))
         {
@@ -54,36 +51,21 @@ public class CambioIdiomas1 : MonoBehaviour
 
     void ActualizarTextos()
     {
-        botonnuevopartidatext.text = matrizIdiomas[i, 0];
-        botonInglestext.text = matrizIdiomas[i, 1];
-        botonGallegotext.text = matrizIdiomas[i, 2];
-        tituloidiomastext.text = matrizIdiomas[i, 3];
+        titulovolumentext.text = matrizIdiomas[i, 0];
+        titulomusicatext.text = matrizIdiomas[i, 1];
+        titulodialogostext.text = matrizIdiomas[i, 2];
+        tituloefectostext.text = matrizIdiomas[i, 3];
     }
 
-    public void Espanol()
+    void GuardarDatos ()
     {
-        i = 0;
         PlayerPrefs.SetInt("Idioma", i);
         PlayerPrefs.Save();
-        ActualizarTextos();
-
-    }
-    public void Galego () 
-    {
-        i = 2;
-        PlayerPrefs.SetInt("Idioma", i);
-        PlayerPrefs.Save();
-        ActualizarTextos();
-    }
-    public void Ingles()
-    {
-        i = 1;
-        PlayerPrefs.SetInt("Idioma", i);
-        PlayerPrefs.Save();
-        ActualizarTextos();
     }
 
-    public void MenuDropDown(int index)
+  
+
+    public void Menu(int index)
     {
         switch (index)
         {
