@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 51d7815f62408134595798a4183de324
+guid: 727f18e15a4df764194c20f496b92702
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Interfaz de pausa 1_0
+      name: "botones de configuraci\xF3n (TECLAS) 2_0"
       rect:
         serializedVersion: 2
-        x: 32
-        y: 806
-        width: 642
-        height: 219
+        x: 15
+        y: 290
+        width: 646
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6f7b727041ea0041a92b6c3e67c2801
-      internalID: 1024699370
+      spriteID: 1935f05e05bcb4842ad381c44b3993ec
+      internalID: -2082634821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_1
+      name: "botones de configuraci\xF3n (TECLAS) 2_1"
       rect:
         serializedVersion: 2
-        x: 1645
-        y: 342
-        width: 199
-        height: 717
+        x: 1145
+        y: 349
+        width: 558
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af4364447941f384da6eda28c4796250
-      internalID: -1141314288
+      spriteID: 6dc2e5233876f88449d2ac9e61e365fc
+      internalID: -1097925793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_2
+      name: "botones de configuraci\xF3n (TECLAS) 2_2"
       rect:
         serializedVersion: 2
-        x: 32
-        y: 540
-        width: 691
-        height: 242
+        x: 1140
+        y: 176
+        width: 574
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58a47f6498b64564eb9a98367be2bc75
-      internalID: 692599337
+      spriteID: 9a1510995b34aa643947322d0019e17a
+      internalID: 1954136215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_3
+      name: "botones de configuraci\xF3n (TECLAS) 2_3"
       rect:
         serializedVersion: 2
-        x: 735
-        y: 378
-        width: 606
-        height: 334
+        x: 1140
+        y: 9
+        width: 551
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e008b20ebb44dd343b8a929829aa22b6
-      internalID: 187537728
+      spriteID: 20bd2d355be53ca4f89c556c7dd95319
+      internalID: -209663445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_4
+      name: "botones de configuraci\xF3n (TECLAS) 2_4"
       rect:
         serializedVersion: 2
-        x: 42
-        y: 317
-        width: 573
-        height: 180
+        x: 1659
+        y: 482
+        width: 226
+        height: 593
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 305063b58e64d9048bfd2cec5003eb44
-      internalID: -982584966
+      spriteID: 936a6304dd876894888b148f24be9c35
+      internalID: 1935731410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_5
+      name: "botones de configuraci\xF3n (TECLAS) 2_5"
       rect:
         serializedVersion: 2
-        x: 715
-        y: 16
-        width: 602
-        height: 362
+        x: 1174
+        y: 936
+        width: 452
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 916d5a5e84052e24fb3a92d34954000a
-      internalID: -595034486
+      spriteID: c78263c75a3ca70448a7afbbbfe7e40d
+      internalID: 1024991462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_6
+      name: "botones de configuraci\xF3n (TECLAS) 2_6"
       rect:
         serializedVersion: 2
-        x: 63
-        y: 43
-        width: 573
-        height: 258
+        x: 4
+        y: 477
+        width: 1170
+        height: 589
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,30 +283,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db5670d31203a634e8a260b9e12fcb6b
-      internalID: 1212913984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interfaz de pausa 1_7
-      rect:
-        serializedVersion: 2
-        x: 1688
-        y: 40
-        width: 170
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9df99c44aa212774db1de10ac6406611
-      internalID: 1441092010
+      spriteID: dfc26e8592558064ebdac70cc8e67311
+      internalID: 1474297402
       vertices: []
       indices: 
       edges: []
@@ -315,7 +293,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: aba0054a8c8aa9b4fae5c7a571bcd4b2
+    spriteID: 30e1a7e9ecda4a645b39bea10353c4e1
     internalID: 0
     vertices: []
     indices: 
@@ -325,14 +303,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Interfaz de pausa 1_0: 1024699370
-      Interfaz de pausa 1_1: -1141314288
-      Interfaz de pausa 1_2: 692599337
-      Interfaz de pausa 1_3: 187537728
-      Interfaz de pausa 1_4: -982584966
-      Interfaz de pausa 1_5: -595034486
-      Interfaz de pausa 1_6: 1212913984
-      Interfaz de pausa 1_7: 1441092010
+      "botones de configuraci\xF3n (TECLAS) 2_0": -2082634821
+      "botones de configuraci\xF3n (TECLAS) 2_1": -1097925793
+      "botones de configuraci\xF3n (TECLAS) 2_2": 1954136215
+      "botones de configuraci\xF3n (TECLAS) 2_3": -209663445
+      "botones de configuraci\xF3n (TECLAS) 2_4": 1935731410
+      "botones de configuraci\xF3n (TECLAS) 2_5": 1024991462
+      "botones de configuraci\xF3n (TECLAS) 2_6": 1474297402
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

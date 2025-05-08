@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 362b4695daa233343b83c25b926871cd
+guid: 5390c01064f355040828b76d2b93325d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,8 +37,8 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
+    wrapU: 0
+    wrapV: 0
     wrapW: 0
   nPOTScale: 0
   lightmap: 0
@@ -52,7 +52,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -106,11 +106,37 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: botones redistribuidos_0
+      name: botones redistribuidos 1_0
       rect:
         serializedVersion: 2
         x: 32
@@ -125,14 +151,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e96a5e8e1757dff41a1f0b8143c4aa4f
-      internalID: 513732630
+      spriteID: ffba5050e90cac444971d3468f1be958
+      internalID: 1049025281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones redistribuidos_1
+      name: botones redistribuidos 1_1
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 973
+        width: 432
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2d774f9479a5347a96f216f386b861
+      internalID: 550886497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones redistribuidos 1_2
       rect:
         serializedVersion: 2
         x: 31
@@ -147,14 +195,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74907fa77858a3244b960cb090a027ee
-      internalID: -2021127055
+      spriteID: 232096b2efd7feb42bb548c63e28a79b
+      internalID: -88553027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones redistribuidos_2
+      name: botones redistribuidos 1_3
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 890
+        width: 276
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de71a4d8cf1f5e6438b3d21a4496405d
+      internalID: 651682574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones redistribuidos 1_4
       rect:
         serializedVersion: 2
         x: 32
@@ -169,14 +239,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4229503671296414db951afe776990c3
-      internalID: 1018505317
+      spriteID: 9f421fca176d7b746b312f0df32abca6
+      internalID: 1602385525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones redistribuidos_3
+      name: botones redistribuidos 1_5
       rect:
         serializedVersion: 2
         x: 33
@@ -191,14 +261,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65d3976c37babb641bc1ff501b642d07
-      internalID: 677239465
+      spriteID: 59921559fe8526d4da7853b1ce24f06b
+      internalID: -1185364829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones redistribuidos_4
+      name: botones redistribuidos 1_6
       rect:
         serializedVersion: 2
         x: 33
@@ -213,14 +283,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12b017342ad7e774cac6087f466b5032
-      internalID: -206254521
+      spriteID: bc96a1a4002fc6947852030d152528e5
+      internalID: 1016442341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones redistribuidos_5
+      name: botones redistribuidos 1_7
       rect:
         serializedVersion: 2
         x: 374
@@ -235,8 +305,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e7423f19e9841042a845df0b6294cc8
-      internalID: -443629821
+      spriteID: 9535f5d5988173c46ba77df02c638dcc
+      internalID: -598381216
       vertices: []
       indices: 
       edges: []
@@ -245,7 +315,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 38db2f7f9fc38f84fb2f21f724c5d46c
+    spriteID: bc46e223cd842924bb9ec1e646c7b428
     internalID: 0
     vertices: []
     indices: 
@@ -255,12 +325,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      botones redistribuidos_0: 513732630
-      botones redistribuidos_1: -2021127055
-      botones redistribuidos_2: 1018505317
-      botones redistribuidos_3: 677239465
-      botones redistribuidos_4: -206254521
-      botones redistribuidos_5: -443629821
+      botones redistribuidos 1_0: 1049025281
+      botones redistribuidos 1_1: 550886497
+      botones redistribuidos 1_2: -88553027
+      botones redistribuidos 1_3: 651682574
+      botones redistribuidos 1_4: 1602385525
+      botones redistribuidos 1_5: -1185364829
+      botones redistribuidos 1_6: 1016442341
+      botones redistribuidos 1_7: -598381216
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

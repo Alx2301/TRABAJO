@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cf1b9e99d5fda50429f93f62e4e94672
+guid: 648247a25c954b242821bed9786c971f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,80 +106,40 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Mesa de trabajo 2@4x_0
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 1728
-        width: 4586
-        height: 2226
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6cfa09dfc8136b42a7d966f6123be48
-      internalID: -1809362480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mesa de trabajo 2@4x_1
-      rect:
-        serializedVersion: 2
-        x: 6986
-        y: 998
-        width: 688
-        height: 832
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23f4aa3d17d3f384bbf60665cde2f1b0
-      internalID: -661645464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mesa de trabajo 2@4x_2
-      rect:
-        serializedVersion: 2
-        x: 6258
-        y: 3282
-        width: 528
-        height: 739
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5457dc54ca33e6b43be30cb8f7492d2e
-      internalID: -1497631539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 87df288dca7f12047afa158c8e1c0c21
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -188,10 +148,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Mesa de trabajo 2@4x_0: -1809362480
-      Mesa de trabajo 2@4x_1: -661645464
-      Mesa de trabajo 2@4x_2: -1497631539
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

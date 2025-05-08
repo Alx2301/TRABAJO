@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 51d7815f62408134595798a4183de324
+guid: cf8b98dc23851f64a83a3693ee6bd632
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,13 +136,101 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Interfaz de pausa 1_0
+      name: Mesa de trabajo 17_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 889
+        width: 749
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b439bf99abfde44781187cb91294bf6
+      internalID: 609965866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 17_1
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 891
+        width: 748
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de92803ce95360041af53e3b3194b930
+      internalID: -2076554351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 17_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 707
+        width: 749
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f36a4b94213e624994d0e56ca799de8
+      internalID: -188695511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 17_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 709
+        width: 748
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf43cb7541953534696c1c83fbdf46d3
+      internalID: 186581466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mesa de trabajo 17_4
       rect:
         serializedVersion: 2
         x: 32
-        y: 806
-        width: 642
-        height: 219
+        y: 518
+        width: 744
+        height: 177
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6f7b727041ea0041a92b6c3e67c2801
-      internalID: 1024699370
+      spriteID: bf1d1ab61544d854fb15e759e0dc68a4
+      internalID: -1350895205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_1
+      name: Mesa de trabajo 17_5
       rect:
         serializedVersion: 2
-        x: 1645
-        y: 342
-        width: 199
-        height: 717
+        x: 816
+        y: 521
+        width: 744
+        height: 177
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af4364447941f384da6eda28c4796250
-      internalID: -1141314288
+      spriteID: aa50bd04276cfb9409cf339997c4ffc8
+      internalID: 455112825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_2
+      name: Mesa de trabajo 17_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 540
-        width: 691
-        height: 242
+        x: 64
+        y: 130
+        width: 577
+        height: 341
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58a47f6498b64564eb9a98367be2bc75
-      internalID: 692599337
+      spriteID: ddb97c165ff977b459cb2632aa946d75
+      internalID: -731158113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_3
+      name: Mesa de trabajo 17_7
       rect:
         serializedVersion: 2
-        x: 735
-        y: 378
-        width: 606
-        height: 334
+        x: 723
+        y: 106
+        width: 589
+        height: 349
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,96 +305,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e008b20ebb44dd343b8a929829aa22b6
-      internalID: 187537728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interfaz de pausa 1_4
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 317
-        width: 573
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 305063b58e64d9048bfd2cec5003eb44
-      internalID: -982584966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interfaz de pausa 1_5
-      rect:
-        serializedVersion: 2
-        x: 715
-        y: 16
-        width: 602
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 916d5a5e84052e24fb3a92d34954000a
-      internalID: -595034486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interfaz de pausa 1_6
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 43
-        width: 573
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db5670d31203a634e8a260b9e12fcb6b
-      internalID: 1212913984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interfaz de pausa 1_7
-      rect:
-        serializedVersion: 2
-        x: 1688
-        y: 40
-        width: 170
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9df99c44aa212774db1de10ac6406611
-      internalID: 1441092010
+      spriteID: 03c9f2de51a26e249897fbd644599541
+      internalID: -987566516
       vertices: []
       indices: 
       edges: []
@@ -315,7 +315,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: aba0054a8c8aa9b4fae5c7a571bcd4b2
+    spriteID: 76d7c048fdb2c5d4c81313b5183f7bd6
     internalID: 0
     vertices: []
     indices: 
@@ -325,14 +325,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Interfaz de pausa 1_0: 1024699370
-      Interfaz de pausa 1_1: -1141314288
-      Interfaz de pausa 1_2: 692599337
-      Interfaz de pausa 1_3: 187537728
-      Interfaz de pausa 1_4: -982584966
-      Interfaz de pausa 1_5: -595034486
-      Interfaz de pausa 1_6: 1212913984
-      Interfaz de pausa 1_7: 1441092010
+      Mesa de trabajo 17_0: 609965866
+      Mesa de trabajo 17_1: -2076554351
+      Mesa de trabajo 17_2: -188695511
+      Mesa de trabajo 17_3: 186581466
+      Mesa de trabajo 17_4: -1350895205
+      Mesa de trabajo 17_5: 455112825
+      Mesa de trabajo 17_6: -731158113
+      Mesa de trabajo 17_7: -987566516
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

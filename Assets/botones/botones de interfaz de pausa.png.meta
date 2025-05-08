@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -106,14 +106,700 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 874
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741ecdd586652824abdf3c1eb07a145a
+      internalID: -1612842366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 880
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5261b2c79edea4eabc704e8eafc861
+      internalID: 2074292956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_2
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 878
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12eb359373081446a3ea198bb75bd71
+      internalID: -29918923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_3
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 878
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a5259a1f93df24e92785838dd1fdb5
+      internalID: -797170203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_4
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 878
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7eecc5c8ecbdc468f04baf345bf8a3
+      internalID: -437435092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_5
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 879
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c396f2a14c77f041b69bf36d6a08b91
+      internalID: 1139460219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_6
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 877
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0884c4776c06c409971f462db69051
+      internalID: 703259757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_7
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 879
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515bd68c472e4944896b74c61370c20a
+      internalID: -1394115116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 690
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5c59f3051259e4b9a964bf9cc59b58
+      internalID: -2013441036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_9
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 691
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb05a3985aa130a4ea3b3486fd66831e
+      internalID: -426199853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_10
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 692
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77ae67134de1334b819ad1ae7e1b5c9
+      internalID: 334599013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_11
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 679
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae060a0228fe434bb0a806eabbe16a2
+      internalID: -101798633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_12
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 683
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f39a308c7c91841a63e03ebd0b2e81
+      internalID: 1857438835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_13
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 683
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8af17b5b3751644083ae4ecf148eedc
+      internalID: 659935264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_14
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 686
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f8821f74bf0be439490cbdfadaf4aa
+      internalID: -1914482687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_15
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 683
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bca6ae99ad40214eb8a3b1c3115a9e9
+      internalID: 1228839608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_16
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 501
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7451841ff1312114385fb72918ea5e18
+      internalID: 2103085130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_17
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 501
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aa1ef902dd47b44b36ef0c8bc604b0
+      internalID: 1320892504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_18
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 502
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a5313406f4dd748962a1d722e391b2
+      internalID: -533530977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_19
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 501
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa5e4cb514d1d14ba8ed45302049a59
+      internalID: 1177882760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_20
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 494
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d412db08b39e24c85de7443400c712
+      internalID: 1549546128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_21
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 495
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f6f16cc8598894f96f8f5681d2dcca
+      internalID: 706703748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_22
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 494
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea3bc7e107acd241866cb52cebe9c2f
+      internalID: 128826899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_23
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 487
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e5438d96416ca429b0f19dc6aeb8fc
+      internalID: 847097966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_24
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 320
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be14bea93186f2242838a378961d165c
+      internalID: 1052398623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_25
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 316
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c3475c980a7e1479e3bdb7c0aae01d
+      internalID: 1596543010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_26
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 312
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89997eaae52b4f5488f79dcca52f0648
+      internalID: 2067445172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_27
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 315
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486618e26d7ed50489bfefc79c13e631
+      internalID: 605665075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_28
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 313
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738b3c9f37d510f41a5e6e88385fb3d1
+      internalID: 1919596326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_29
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 307
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4eef4bc4100904d83ec45195db4161
+      internalID: 744074502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9a5d40a7eab648b40b2f2b513a8f844d
     internalID: 0
     vertices: []
     indices: 
@@ -122,7 +808,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      botones de interfaz de pausa_0: -1612842366
+      botones de interfaz de pausa_1: 2074292956
+      botones de interfaz de pausa_10: 334599013
+      botones de interfaz de pausa_11: -101798633
+      botones de interfaz de pausa_12: 1857438835
+      botones de interfaz de pausa_13: 659935264
+      botones de interfaz de pausa_14: -1914482687
+      botones de interfaz de pausa_15: 1228839608
+      botones de interfaz de pausa_16: 2103085130
+      botones de interfaz de pausa_17: 1320892504
+      botones de interfaz de pausa_18: -533530977
+      botones de interfaz de pausa_19: 1177882760
+      botones de interfaz de pausa_2: -29918923
+      botones de interfaz de pausa_20: 1549546128
+      botones de interfaz de pausa_21: 706703748
+      botones de interfaz de pausa_22: 128826899
+      botones de interfaz de pausa_23: 847097966
+      botones de interfaz de pausa_24: 1052398623
+      botones de interfaz de pausa_25: 1596543010
+      botones de interfaz de pausa_26: 2067445172
+      botones de interfaz de pausa_27: 605665075
+      botones de interfaz de pausa_28: 1919596326
+      botones de interfaz de pausa_29: 744074502
+      botones de interfaz de pausa_3: -797170203
+      botones de interfaz de pausa_4: -437435092
+      botones de interfaz de pausa_5: 1139460219
+      botones de interfaz de pausa_6: 703259757
+      botones de interfaz de pausa_7: -1394115116
+      botones de interfaz de pausa_8: -2013441036
+      botones de interfaz de pausa_9: -426199853
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
