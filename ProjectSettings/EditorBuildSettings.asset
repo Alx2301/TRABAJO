@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu opciones/Menu opciones teclas.unity
     guid: 8f6597e85476ddf46bfec7a0774acae6
   - enabled: 1
-    path: Assets/Scenes/Menu Principal.unity
+    path: Assets/Scenes/Menu Principal/Menu Principal.unity
     guid: f9d1961ebe7430b49a2128f69be92dd6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

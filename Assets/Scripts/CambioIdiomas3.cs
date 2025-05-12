@@ -21,9 +21,9 @@ public class CambioIdiomas3 : MonoBehaviour
 
     string[,] matrizIdiomas = new string[3, 5]
     {
-        {"Nueva Partida","Cargar Partida","Configuración","Salida", "Créditos"},
-        {"New Party","Load Party","Configuration","Exit", "Credits"},
-        {"Nova Partida","Cargar Partida","Configuración","Saída", "Créditos"}
+        {"Nueva partida","Cargar partida","Configuración","Salida", "Créditos"},
+        {"New party","Load party","Configuration","Exit", "Credits"},
+        {"Nova partida","Cargar partida","Configuración","Saída", "Créditos"}
     };
 
     
