@@ -22,7 +22,7 @@ public class CambioIdiomas1 : MonoBehaviour
 
 
     public int i = 0;
-
+    
 
     string[,] matrizIdiomas = new string[3, 7]
     {
@@ -75,7 +75,7 @@ public class CambioIdiomas1 : MonoBehaviour
         titulodialogotext.text = matrizIdiomas[i, 5];
         botonvolvertext.text = matrizIdiomas[i, 6];
 
-}
+    }
 
     void GuardarDatos ()
     {

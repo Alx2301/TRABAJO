@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 //poner el valor del cambio de idiomas 1 al 2, para cuando se cambie el idioma en las opciones, se cambie en todas las pantallas (escenas)
 public class CambioIdiomas2 : MonoBehaviour
@@ -13,37 +14,39 @@ public class CambioIdiomas2 : MonoBehaviour
     public TextMeshProUGUI titulomusicatext;
     public TextMeshProUGUI titulodialogostext;
     public TextMeshProUGUI tituloefectostext;
+    public TextMeshProUGUI botonvolvertext;
+    public TextMeshProUGUI tituloanimacionestext;
+    public TextMeshProUGUI titulohabilidadestext;
+    public TextMeshProUGUI tituloentornotext;
 
     public int i = 0;
 
 
-    string[,] matrizIdiomas = new string[3, 5]
+    string[,] matrizIdiomas = new string[3, 8]
     {
-        {"Volumen","Música","Diálogo","Efectos","Volver"},
-        {"Volumen","Music","Dialogue","Efects","Back"},
-        {"Volumen","Música","Diálogo","Efectos","Atras"}
+        {"Volumen","Música","Diálogos","Efectos VX","Volver", "Animaciones","Habilidades", "Entorno"},
+        {"Volumen","Music","Dialogue","Efects VX","Back", "Animations","Habilitys", "Ambient"},
+        {"Volumen","Música","Diálogos","Efectos VX","Atras", "Animaciones", "Habilidades", "Ambiente"}
     };
+
+    
+
     void Start()
     {
+        int i = PlayerPrefs.GetInt("Idioma", 0);
+
         titulovolumentext.text = matrizIdiomas[i,0];
         titulomusicatext.text = matrizIdiomas[i, 1];
         titulodialogostext.text = matrizIdiomas[i, 2];
         tituloefectostext.text = matrizIdiomas[i, 3];
+        botonvolvertext.text = matrizIdiomas[i, 4];
+        tituloanimacionestext.text = matrizIdiomas[i,5];
+        titulohabilidadestext.text = matrizIdiomas[i,6];
+        tituloentornotext.text = matrizIdiomas[i, 7];
 
-        if (PlayerPrefs.HasKey("Idioma"))
-        {
-            i = PlayerPrefs.GetInt("Idioma");
-        }
-        else
-        {
-            i = 0;
-        }
-
-        ActualizarTextos();
     }
 
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -55,6 +58,10 @@ public class CambioIdiomas2 : MonoBehaviour
         titulomusicatext.text = matrizIdiomas[i, 1];
         titulodialogostext.text = matrizIdiomas[i, 2];
         tituloefectostext.text = matrizIdiomas[i, 3];
+        botonvolvertext.text = matrizIdiomas[i,4];
+        tituloanimacionestext.text = matrizIdiomas[i, 5];
+        titulohabilidadestext.text = matrizIdiomas[i, 6];
+        tituloentornotext.text = matrizIdiomas[i, 7];
     }
 
     void GuardarDatos ()
