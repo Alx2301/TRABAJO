@@ -485,10 +485,11 @@ RectTransform:
   m_Children:
   - {fileID: 728234989}
   - {fileID: 1632218145}
+  - {fileID: 1198008573}
   - {fileID: 1820825579}
   - {fileID: 1756886008}
-  - {fileID: 1018012042}
   - {fileID: 463207201}
+  - {fileID: 1018012042}
   - {fileID: 814043401}
   - {fileID: 1665257924}
   - {fileID: 546499239}
@@ -497,7 +498,6 @@ RectTransform:
   - {fileID: 1484178677}
   - {fileID: 1545753872}
   - {fileID: 1774363084}
-  - {fileID: 1198008573}
   - {fileID: 397202376}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1308,19 +1308,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 463207203}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 728234990}
-        m_TargetAssemblyTypeName: GestorAnimaciones, Assembly-CSharp
-        m_MethodName: Solitario
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &463207203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1953,6 +1941,7 @@ GameObject:
   m_Component:
   - component: {fileID: 728234989}
   - component: {fileID: 728234990}
+  - component: {fileID: 728234991}
   m_Layer: 5
   m_Name: GESTORANIMACION
   m_TagString: Untagged
@@ -1993,10 +1982,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator1: {fileID: 463207205}
   animator2: {fileID: 1018012046}
-  animator3: {fileID: 814043405}
-  animator4: {fileID: 1665257928}
-  animator5: {fileID: 546499243}
-  animator6: {fileID: 0}
+--- !u!114 &728234991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728234988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6994cd4d9eb78254fad022c1acf8c85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 397202377}
 --- !u!1 &781565186
 GameObject:
   m_ObjectHideFlags: 0
@@ -2695,19 +2693,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1018012044}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 728234990}
-        m_TargetAssemblyTypeName: GestorAnimaciones, Assembly-CSharp
-        m_MethodName: Multijugador
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1018012044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2950,12 +2936,12 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9ea8d65c933ff034491c998e223797f2, type: 3}
+  m_Resource: {fileID: 8300000, guid: 9ea8d65c933ff034491c998e223797f2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2965,8 +2951,8 @@ AudioSource:
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
+  BypassEffects: 1
+  BypassListenerEffects: 1
   BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
@@ -2997,7 +2983,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -3122,7 +3108,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 728234990}
         m_TargetAssemblyTypeName: GestorAnimaciones, Assembly-CSharp
-        m_MethodName: Estado
+        m_MethodName: Solitario
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3131,7 +3117,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
 --- !u!114 &1218252929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3236,8 +3222,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4288651222
-  m_fontColor: {r: 0.8396226, g: 0.621796, b: 0.621796, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3658,7 +3644,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 728234991}
         m_TargetAssemblyTypeName: EntradaSalidaAnimacion, Assembly-CSharp
         m_MethodName: ReproducirEntrada
         m_Mode: 1
@@ -4804,7 +4790,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 728234991}
         m_TargetAssemblyTypeName: EntradaSalidaAnimacion, Assembly-CSharp
         m_MethodName: ReproducirSalida
         m_Mode: 1
@@ -5192,8 +5178,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4288651222
-  m_fontColor: {r: 0.8396226, g: 0.621796, b: 0.621796, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
