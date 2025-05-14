@@ -1532,7 +1532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tituloteclas: {fileID: 101686933}
-  tituloatacar: {fileID: 0}
+  tituloatacar: {fileID: 1333354032}
   titulomoverse: {fileID: 0}
   tituloderecha: {fileID: 0}
   tituloizquierda: {fileID: 0}
