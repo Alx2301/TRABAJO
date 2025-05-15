@@ -15,15 +15,19 @@ public class CambioIdiomas3 : MonoBehaviour
     public TextMeshProUGUI botonconfiguraciontext;
     public TextMeshProUGUI botonsalidatext;
     public TextMeshProUGUI botoncreditostext;
+    public TextMeshProUGUI botonsolitario;
+    public TextMeshProUGUI boton2jug;
+    public TextMeshProUGUI boton3jug;
+    public TextMeshProUGUI boton4jug;
 
     public int i = 0;
 
 
-    string[,] matrizIdiomas = new string[3, 5]
+    string[,] matrizIdiomas = new string[3, 9]
     {
-        {"Nueva partida","Cargar partida","Configuración","Salida", "Créditos"},
-        {"New party","Load party","Configuration","Exit", "Credits"},
-        {"Nova partida","Cargar partida","Configuración","Saída", "Créditos"}
+        {"Nueva partida","Cargar partida","Configuración","Salida", "Créditos", "Solitario", "2 jugadores", "3 jugadores", "4 jugadores"},
+        {"New party","Load party","Configuration","Exit", "Credits", "Solo", "2 players", "3 players", "4 players"},
+        {"Nova partida","Cargar partida","Configuración","Saída", "Créditos", "Solitario", "2 xugadores", "3 xugadores", "4 xugadores"}
     };
 
     
@@ -37,6 +41,10 @@ public class CambioIdiomas3 : MonoBehaviour
         botonconfiguraciontext.text = matrizIdiomas[i, 2];
         botonsalidatext.text = matrizIdiomas[i, 3];
         botoncreditostext.text = matrizIdiomas[i, 4];
+        botonsolitario.text= matrizIdiomas[i,5];
+        boton2jug.text=matrizIdiomas[i, 6];
+        boton3jug.text = matrizIdiomas[i,7];
+        boton4jug.text = matrizIdiomas [i,8];
 
     }
 
@@ -53,6 +61,10 @@ public class CambioIdiomas3 : MonoBehaviour
         botonconfiguraciontext.text = matrizIdiomas[i, 2];
         botonsalidatext.text = matrizIdiomas[i, 3];
         botoncreditostext.text = matrizIdiomas[i, 4];
+        botonsolitario.text = matrizIdiomas[i, 5];
+        boton2jug.text = matrizIdiomas[i, 6];
+        boton3jug.text = matrizIdiomas[i, 7];
+        boton4jug.text = matrizIdiomas[i, 8];
     }
 
     void GuardarDatos ()

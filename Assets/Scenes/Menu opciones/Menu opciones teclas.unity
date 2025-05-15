@@ -2163,20 +2163,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tituloteclas: {fileID: 101686933}
   tituloatacar: {fileID: 1333354032}
-<<<<<<< HEAD
-  titulomoverse: {fileID: 0}
-  tituloderecha: {fileID: 0}
-  tituloizquierda: {fileID: 0}
-  tituloabajo: {fileID: 0}
-  tituloagachar: {fileID: 0}
-  titulosaltar: {fileID: 0}
-  titulocorrer: {fileID: 0}
-  tituloabririnventario: {fileID: 0}
-  titulorecarga: {fileID: 0}
-  titulointeracionentonrno: {fileID: 0}
-  titulocubrirse: {fileID: 0}
-  titulover: {fileID: 0}
-=======
   titulomoverse: {fileID: 1664528443}
   tituloderecha: {fileID: 1599871101}
   tituloizquierda: {fileID: 2020986381}
@@ -2188,7 +2174,6 @@ MonoBehaviour:
   titulorecarga: {fileID: 329952508}
   titulointeracionentonrno: {fileID: 142996780}
   titulocubrirse: {fileID: 1279040162}
->>>>>>> d00f09983bebdc76b0b14efade41785a79de3a6f
   i: 0
 --- !u!1 &1279040161
 GameObject:

@@ -15,12 +15,15 @@ public class GestorAnimaciones : MonoBehaviour
     private int seleccion;
     public Animator animator1;
     public Animator animator2;
-    
-    
+    public Animator animator3;
+    public Animator animator4;
+    public Animator animator5;
+    public GameObject panelU;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        panelU.SetActive(false);
         estadoOpciones = 0;
         seleccion = 0;
     }
@@ -37,13 +40,22 @@ public class GestorAnimaciones : MonoBehaviour
         seleccion = 1;
         Estado();
     }
-
-    public void Multijugador()
+    public void Jugador2()
     {
-        seleccion=2;
-        Estado() ;
+        seleccion = 2;
+        Estado();
     }
-    
+    public void Jugador3()
+    {
+        seleccion = 3;
+        Estado();
+    }
+
+    public void Jugador4()
+    {
+        seleccion = 4;
+        Estado();
+    }
 
     private void AbrirOpciones1()
     {
@@ -52,7 +64,9 @@ public class GestorAnimaciones : MonoBehaviour
             case 1:
                 
                 animator1.Play("Animacion Solitario");
-                animator2.Play("Animacion Multijugador");
+                animator2.Play("Animacion2jug");
+                animator3.Play("Animacion3jug");
+                animator4.Play("Animacion4jug");
                 break;
         }
     }
@@ -62,7 +76,9 @@ public class GestorAnimaciones : MonoBehaviour
         {
             case 1:
                 animator1.Play("Animacion Solitario Salir");
-                animator2.Play("Animacion Multijugador Salir");
+                animator2.Play("Animacion2jugS");
+                animator3.Play("Animacion3jugS");
+                animator4.Play("Animacion4jugS");
                 break;
         }
     }
@@ -82,6 +98,14 @@ public class GestorAnimaciones : MonoBehaviour
         }
     }
     
-
+    public void MenuU()
+    {
+        panelU.SetActive(true);
+        animator5.Play("AnimacionPanelU");
+    }
+    public void MenuUS()
+    {
+        panelU.SetActive(false);
+    }
 
 }

@@ -24,11 +24,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu opciones/Menu opciones graficos.unity
     guid: 18e77da9b37044143a404aaa23209cbd
   - enabled: 1
-    path: Assets/Scenes/Menu opciones/Menu opciones mando.unity
-    guid: afc0e850595dfc044b33c2c267411082
-  - enabled: 1
     path: Assets/Scenes/Menu opciones/Menu opciones teclas.unity
     guid: 8f6597e85476ddf46bfec7a0774acae6
+  - enabled: 1
+    path: Assets/Scenes/Menu opciones/Menu opciones mando.unity
+    guid: afc0e850595dfc044b33c2c267411082
   - enabled: 1
     path: Assets/Scenes/Menu Principal/Menu principal iniciar secion.unity
     guid: 3495582b6d7a469418e4c0eac930e467
