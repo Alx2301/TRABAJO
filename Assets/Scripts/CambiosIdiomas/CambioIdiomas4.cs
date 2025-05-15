@@ -23,16 +23,16 @@ public class CambioIdiomas4 : MonoBehaviour
     public TextMeshProUGUI titulorecarga;
     public TextMeshProUGUI titulointeracionentonrno;
     public TextMeshProUGUI titulocubrirse;
-    public TextMeshProUGUI titulover;
+    
 
     public int i = 0;
 
 
-    string[,] matrizIdiomas = new string[3, 14]
+    string[,] matrizIdiomas = new string[3, 13]
     {
-        {"Teclas","Atacar","Adelante","Derecha","Izquierda", "Atrás","Agachar","Saltar","Correr","Abrir Inventario","Recarga de arma/habilidad","Abrir/Recoger (Interacción con el entorno)", "Cubrirse", "Ver elementos/enemigos ocultos cercanos"},
-        {"Keys","Attack","Forward","Right","Left","Behind","Crouch","Jump","Run","Open inventory","Weapon/Skill Reload", "Open/Pick up (Interaction with the environment)", "Cover up", "View nearby hidden items/enemies"},
-        {"Teclas","Ataque","Diante","Dereita","Ezquerda","Atrás","Pato","Salto","Correr","Abrir Inventario","Recarga arma/habilidade", "Abrir/Recoller (interacción co ambente)", "Poñerse a cuberto", "Ver obxectos/inimigos ocultos próximos"}
+        {"Teclas","Atacar","Adelante","Derecha","Izquierda", "Atrás","Agachar","Saltar","Correr","Abrir Inventario","Recarga de arma/habilidad","Abrir/Recoger (Interacción con el entorno)", "Cubrirse"},
+        {"Keys","Attack","Forward","Right","Left","Behind","Crouch","Jump","Run","Open inventory","Weapon/Skill Reload", "Open/Pick up (Interaction with the environment)", "Cover up"},
+        {"Teclas","Ataque","Diante","Dereita","Ezquerda","Atrás","Pato","Salto","Correr","Abrir Inventario","Recarga arma/habilidade", "Abrir/Recoller (interacción co ambente)", "Poñerse a cuberto"}
     };
 
     
@@ -54,7 +54,7 @@ public class CambioIdiomas4 : MonoBehaviour
         titulorecarga.text = matrizIdiomas[i,10];
         titulointeracionentonrno.text = matrizIdiomas[i,11];
         titulocubrirse.text = matrizIdiomas[i,12];
-        titulover.text = matrizIdiomas[i,13];
+        
 
     }
 
@@ -79,7 +79,7 @@ public class CambioIdiomas4 : MonoBehaviour
         titulorecarga.text = matrizIdiomas[i, 10];
         titulointeracionentonrno.text = matrizIdiomas[i, 11];
         titulocubrirse.text = matrizIdiomas[i, 12];
-        titulover.text = matrizIdiomas[i, 13];
+        
 
     }
 

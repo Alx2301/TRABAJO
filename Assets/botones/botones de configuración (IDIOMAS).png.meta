@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -121,12 +121,826 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_0"
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 935
+        width: 159
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87168c0297c4ef545bff35ff6d5fdfe7
+      internalID: -2019330770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_1"
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 933
+        width: 159
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f0067c37eb87547bb835c1a749bcdf
+      internalID: 2047684985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_2"
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 964
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd9acd6be6c7cd4ebd4c651e5ee1769
+      internalID: -1088052006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_3"
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 965
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd1d35fb2e6b16439982fb9479d33b8
+      internalID: 72998650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_4"
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 890
+        width: 635
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c34f1c3e5244b47acfa8d6110d83dc
+      internalID: 934520765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_5"
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 872
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fb2566c0768d44caa475364b5d0da6
+      internalID: 1106792485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_6"
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 873
+        width: 68
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ea07a0db77ccc44be1dec8ab83c37b
+      internalID: -1445313421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_7"
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 766
+        width: 79
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758ec46dc8368c54f833c2ee91ffa2a5
+      internalID: -827748163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_8"
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 777
+        width: 24
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2a1f2bb8528474f8875f4ac400ff50
+      internalID: -484629177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_9"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 766
+        width: 23
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d539033badf8d7459acf59d4c6dd767
+      internalID: 798514982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_10"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 759
+        width: 30
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e357b5529a88d4a80e73c64ba701d1
+      internalID: -1415328600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_11"
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 763
+        width: 79
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06986db31c2584241a72e9128e42aaf2
+      internalID: 826961652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_12"
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 774
+        width: 24
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25c1b0d3efcba849a0037c2c625a99f
+      internalID: 1283114979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_13"
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 763
+        width: 23
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d41a8345cded6c4c8c0e14ea5739f37
+      internalID: 1848688468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_14"
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 757
+        width: 30
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850882257b4be63468522d84733ec140
+      internalID: -149719690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_15"
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 647
+        width: 317
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59309d7536d866f4192669dfab2e3914
+      internalID: 216947877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_16"
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 654
+        width: 633
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ce3dbd78d1d1b44bd04fa6e70368c6
+      internalID: -339993794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_17"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 625
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aacadb4e38b7614b83b46d57c03b668
+      internalID: -1952570351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_18"
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 624
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7a6c5ce1ed449439c104ad0d6ce5b7
+      internalID: 703648401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_19"
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 447
+        width: 317
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f2d4559f7c7b2438ce548ee9be2a3c
+      internalID: -671053141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_20"
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 582
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7601c5cd0d0c8ec4ea0efd6375d6071f
+      internalID: -1513733734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_21"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 582
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef18d940e9cb6e049bc9fb8f992422d9
+      internalID: 2057599796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_22"
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 582
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f07307ac8e42c1439d3dc41151ec4aa
+      internalID: -888511289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_23"
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 581
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71277b78f5bd7f547b4eaf39b000c157
+      internalID: 2113499964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_24"
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 581
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a935b45dad7ce240b72e89fdf695aa9
+      internalID: 574555735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_25"
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 581
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad449343aba7fc043a705a86272156e9
+      internalID: 2006089693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_26"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 428
+        width: 134
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209282f3eae36434b870859b0313bfb2
+      internalID: -724658093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_27"
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 423
+        width: 134
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e798f259beeff744482eca2e33bf337b
+      internalID: 708459770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_28"
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 241
+        width: 316
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faadc7b293ddfbe448f1dfa11f5e4cc8
+      internalID: -1253756945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_29"
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 415
+        width: 633
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e295ea6aedea2db499604ca6a424f758
+      internalID: 197342071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_30"
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 238
+        width: 134
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9405c263ab5134a97a594dc05613fe
+      internalID: 286894575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_31"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 134
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256d7acc4f539f845b8504a8dc9cf3e2
+      internalID: -1059727078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_32"
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 59
+        width: 173
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625f22cf54bacfa48822212ac30d8547
+      internalID: 514974151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_33"
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 745
+        width: 186
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89800431a839f8b4bb62022f2f7e002d
+      internalID: -1894376177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_34"
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 721
+        width: 186
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637434c438ce9c8448cc13f3d953ebb3
+      internalID: 1908073828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_35"
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 560
+        width: 182
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9443e8b79d4255439d3d332f20c42de
+      internalID: 819224528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "botones de configuraci\xF3n (IDIOMAS)_36"
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 563
+        width: 177
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd47a45b5c3d274da5e0f9ddb441f25
+      internalID: 1746359414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2fdb8943ca16b8643af0896a81c1f77b
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +949,44 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "botones de configuraci\xF3n (IDIOMAS)_0": -2019330770
+      "botones de configuraci\xF3n (IDIOMAS)_1": 2047684985
+      "botones de configuraci\xF3n (IDIOMAS)_10": -1415328600
+      "botones de configuraci\xF3n (IDIOMAS)_11": 826961652
+      "botones de configuraci\xF3n (IDIOMAS)_12": 1283114979
+      "botones de configuraci\xF3n (IDIOMAS)_13": 1848688468
+      "botones de configuraci\xF3n (IDIOMAS)_14": -149719690
+      "botones de configuraci\xF3n (IDIOMAS)_15": 216947877
+      "botones de configuraci\xF3n (IDIOMAS)_16": -339993794
+      "botones de configuraci\xF3n (IDIOMAS)_17": -1952570351
+      "botones de configuraci\xF3n (IDIOMAS)_18": 703648401
+      "botones de configuraci\xF3n (IDIOMAS)_19": -671053141
+      "botones de configuraci\xF3n (IDIOMAS)_2": -1088052006
+      "botones de configuraci\xF3n (IDIOMAS)_20": -1513733734
+      "botones de configuraci\xF3n (IDIOMAS)_21": 2057599796
+      "botones de configuraci\xF3n (IDIOMAS)_22": -888511289
+      "botones de configuraci\xF3n (IDIOMAS)_23": 2113499964
+      "botones de configuraci\xF3n (IDIOMAS)_24": 574555735
+      "botones de configuraci\xF3n (IDIOMAS)_25": 2006089693
+      "botones de configuraci\xF3n (IDIOMAS)_26": -724658093
+      "botones de configuraci\xF3n (IDIOMAS)_27": 708459770
+      "botones de configuraci\xF3n (IDIOMAS)_28": -1253756945
+      "botones de configuraci\xF3n (IDIOMAS)_29": 197342071
+      "botones de configuraci\xF3n (IDIOMAS)_3": 72998650
+      "botones de configuraci\xF3n (IDIOMAS)_30": 286894575
+      "botones de configuraci\xF3n (IDIOMAS)_31": -1059727078
+      "botones de configuraci\xF3n (IDIOMAS)_32": 514974151
+      "botones de configuraci\xF3n (IDIOMAS)_33": -1894376177
+      "botones de configuraci\xF3n (IDIOMAS)_34": 1908073828
+      "botones de configuraci\xF3n (IDIOMAS)_35": 819224528
+      "botones de configuraci\xF3n (IDIOMAS)_36": 1746359414
+      "botones de configuraci\xF3n (IDIOMAS)_4": 934520765
+      "botones de configuraci\xF3n (IDIOMAS)_5": 1106792485
+      "botones de configuraci\xF3n (IDIOMAS)_6": -1445313421
+      "botones de configuraci\xF3n (IDIOMAS)_7": -827748163
+      "botones de configuraci\xF3n (IDIOMAS)_8": -484629177
+      "botones de configuraci\xF3n (IDIOMAS)_9": 798514982
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
