@@ -18,15 +18,16 @@ public class CambioIdiomas2 : MonoBehaviour
     public TextMeshProUGUI tituloanimacionestext;
     public TextMeshProUGUI titulohabilidadestext;
     public TextMeshProUGUI tituloentornotext;
+    public TextMeshProUGUI botonguardar;
 
     public int i = 0;
 
 
-    string[,] matrizIdiomas = new string[3, 8]
+    string[,] matrizIdiomas = new string[3, 9]
     {
-        {"Volumen","Música","Diálogos","Efectos VX","Volver", "Animaciones","Habilidades", "Entorno"},
-        {"Volumen","Music","Dialogue","Efects VX","Back", "Animations","Habilitys", "Ambient"},
-        {"Volumen","Música","Diálogos","Efectos VX","Atras", "Animaciones", "Habilidades", "Ambiente"}
+        {"Volumen","Música","Diálogos","Efectos VX","Volver", "Animaciones","Habilidades", "Entorno","Guardar cambios"},
+        {"Volumen","Music","Dialogue","Efects VX","Back", "Animations","Habilitys", "Ambient", "Changes save"},
+        {"Volumen","Música","Diálogos","Efectos VX","Atras", "Animaciones", "Habilidades", "Ambiente", "Gardar cambios"}
     };
 
     
@@ -43,6 +44,7 @@ public class CambioIdiomas2 : MonoBehaviour
         tituloanimacionestext.text = matrizIdiomas[i,5];
         titulohabilidadestext.text = matrizIdiomas[i,6];
         tituloentornotext.text = matrizIdiomas[i, 7];
+        botonguardar.text = matrizIdiomas[i,8];
 
     }
 
@@ -62,6 +64,7 @@ public class CambioIdiomas2 : MonoBehaviour
         tituloanimacionestext.text = matrizIdiomas[i, 5];
         titulohabilidadestext.text = matrizIdiomas[i, 6];
         tituloentornotext.text = matrizIdiomas[i, 7];
+        botonguardar.text = matrizIdiomas[i, 8];
     }
 
     void GuardarDatos ()

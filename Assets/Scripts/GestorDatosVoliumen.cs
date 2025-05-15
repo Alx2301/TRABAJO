@@ -49,6 +49,8 @@ public class GestorDatosVoliumen : MonoBehaviour
         valorguardadoentorno=PlayerPrefs.GetFloat("ValorE", Volumenentorno.minValue);
         Volumenentorno.value=valorguardadoentorno;
         Volumenentorno.onValueChanged.AddListener(GuardarValorH);
+
+        GuardarDatosJugador();
     }
 
     // Update is called once per frame
@@ -61,49 +63,47 @@ public class GestorDatosVoliumen : MonoBehaviour
     {
         valorguardadomusica = valor;
         PlayerPrefs.SetFloat("ValorMusica", valorguardadomusica);
-        PlayerPrefs.Save();
-        Debug.Log("Valor Musica Guardado: " + valorguardadomusica);
+        GuardarDatosJugador();
     }
 
     void GuardarValorDialogo(float valor)
     {
         valorguardadodialogo = valor;
         PlayerPrefs.SetFloat("ValorDialogo", valorguardadodialogo);
-        PlayerPrefs.Save();
-        Debug.Log("Valor Dialogo Guardado: " + valorguardadodialogo);
+        GuardarDatosJugador();
     }
 
     void GuardarValorAnimaciones(float valor)
     {
         valorguardadoanimaciones = valor;
         PlayerPrefs.SetFloat("ValorAnimaciones", valorguardadoanimaciones);
-        PlayerPrefs.Save();
-        Debug.Log("Valor Anim Guardado: " + valorguardadoanimaciones);
+        GuardarDatosJugador();
     }
 
     void GuardarValorEfectos(float valor)
     {
         valorguardadoefectos = valor;
         PlayerPrefs.SetFloat("ValorEfectos", valorguardadoefectos);
-        PlayerPrefs.Save();
-        Debug.Log("Valor VX Guardado: " + valorguardadoefectos);
+        GuardarDatosJugador();
     }
 
     void GuardarValorH(float valor)
     {
         valorguardadohabilidades = valor;
         PlayerPrefs.SetFloat("ValorH", valorguardadohabilidades);
-        PlayerPrefs.Save();
-        Debug.Log("Valor Habilidades Guardado: "+ valorguardadohabilidades);
+        GuardarDatosJugador();
     }
 
     void GuardarValorEntorno(float valor)
     {
         valorguardadoentorno = valor;
         PlayerPrefs.SetFloat("ValorE", valorguardadoentorno);
-        PlayerPrefs.Save();
-        Debug.Log("Valor Entorno Guardado: " + valorguardadoentorno);
+        GuardarDatosJugador();
     }
 
-
+    void GuardarDatosJugador()
+    {
+        PlayerPrefs.Save();
+        Debug.Log("Valor Guardado");
+    }
 }
