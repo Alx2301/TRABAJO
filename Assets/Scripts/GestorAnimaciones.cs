@@ -105,7 +105,8 @@ public class GestorAnimaciones : MonoBehaviour
     }
     public void MenuUS()
     {
-        panelU.SetActive(false);
+        animator5.Play("AnimacionPanelUS");
+
     }
 
 }
