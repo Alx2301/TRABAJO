@@ -10,20 +10,25 @@ using JetBrains.Annotations;
 
 public class GestorDatosUsuario : MonoBehaviour
 {
-    public InputField campotexto;
-    private string textoguardado;
-    public Button pruebausuario;
-    public Animator animatorad;
+    public InputField campotextousuarioin;
+    private string textoguardadousuarioin;
+    public Button botonjugarin;
     public GameObject panelAD;
-    public Animator anipanel;
+    public GameObject panelre;
+    public GameObject panelin;
+    public GameObject panelsbf;
+    
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         panelAD.SetActive(false);
-        pruebausuario.interactable=false;
-        campotexto.onEndEdit.AddListener(GuardarT);
-        campotexto.text = PlayerPrefs.GetString("Texto usuario guardado", " ");
+        botonjugarin.interactable=false;
+        panelre.SetActive(false);
+        panelin.SetActive(false);
+        panelsbf.SetActive(false);
+        campotextousuarioin.onEndEdit.AddListener(GuardarT);
+        campotextousuarioin.text = PlayerPrefs.GetString("Texto usuario guardado", " ");
     }
 
     // Update is called once per frame
@@ -35,21 +40,30 @@ public class GestorDatosUsuario : MonoBehaviour
 
     void GuardarT(string texto)
     {
-        textoguardado = texto;
-        PlayerPrefs.SetString("Texto usuario guardado", textoguardado);
-        
+        textoguardadousuarioin = texto;
+        PlayerPrefs.SetString("Texto usuario guardado", textoguardadousuarioin);
+
         if (texto == " ")
         {
-            ad();
+            panelAD.SetActive(true);
+        }
+        else if (texto == "")
+        {
+            panelAD.SetActive(true);
+        }
+        else if (texto == "  ")
+        {
+            panelAD.SetActive(true);
         }
         else
-        {
-            textoguardado=texto;
-            pruebausuario.interactable = true;
+        {// no se activa el boton
+            textoguardadousuarioin = texto;
+            botonjugarin.interactable = true;
             Debug.Log("Funciona");
             GuardarCambios();
 
         }
+
         
     }
     public void GuardarCambios()
@@ -60,14 +74,34 @@ public class GestorDatosUsuario : MonoBehaviour
     public void ad()
     {
         panelAD.SetActive(true);
-        animatorad.Play("AnimacionesAD");
     }
     public void closead()
     {
-        animatorad.Play("AnimacionesADS");
+        panelAD.SetActive(false);
     }
-    public void closeinicio()
+    
+    public void abrirre()
     {
-        anipanel.Play("AnimacionPanelUS");
+        panelre.SetActive(true);
+    }
+    public void cerrarre()
+    {
+        panelre.SetActive(false);
+    }
+    public void abririn()
+    {
+        panelin.SetActive(true);
+    }
+    public void cerrarin()
+    {
+        panelin.SetActive(false);
+    }
+    public void abrirsfr()
+    {
+        panelsbf.SetActive(true);
+    }
+    public void cerrarsbf()
+    {
+        panelsbf.SetActive(false);
     }
 }

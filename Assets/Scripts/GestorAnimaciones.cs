@@ -23,9 +23,9 @@ public class GestorAnimaciones : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        int selection = PlayerPrefs.GetInt("Jugadores", 0);
         panelU.SetActive(false);
         estadoOpciones = 0;
-        seleccion = 0;
     }
 
     // Update is called once per frame
@@ -105,8 +105,6 @@ public class GestorAnimaciones : MonoBehaviour
     }
     public void MenuUS()
     {
-        animator5.Play("AnimacionPanelUS");
-
+        panelU.SetActive(false);
     }
-
 }
