@@ -74,7 +74,7 @@ public class CambioIdiomas1 : MonoBehaviour
         botondiaGallegotext.text = matrizIdiomas[i, 2];
         titulodialogotext.text = matrizIdiomas[i, 5];
         botonvolvertext.text = matrizIdiomas[i, 6];
-
+        GuardarDatos();
     }
 
     void GuardarDatos ()
