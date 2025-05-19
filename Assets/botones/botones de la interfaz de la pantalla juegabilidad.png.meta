@@ -126,6 +126,28 @@ TextureImporter:
       name: botones de la interfaz de la pantalla juegabilidad_0
       rect:
         serializedVersion: 2
+        x: 297
+        y: 904
+        width: 573
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7374186fb422de4cbd239e12fd6ba34
+      internalID: 1589713559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de la interfaz de la pantalla juegabilidad_1
+      rect:
+        serializedVersion: 2
         x: 1141
         y: 743
         width: 285
@@ -138,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e4b0211b1b638345850d08626681414
-      internalID: 1498005047
+      spriteID: 36395c38ea7649341bc655c5e727934a
+      internalID: 271144874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_1
+      name: botones de la interfaz de la pantalla juegabilidad_2
       rect:
         serializedVersion: 2
         x: 1431
@@ -160,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67fce63393e5b414794606d62406a8a4
-      internalID: -1868414498
+      spriteID: 7fab114023d92374aaef702c2ec613a9
+      internalID: -1564012575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_2
+      name: botones de la interfaz de la pantalla juegabilidad_3
       rect:
         serializedVersion: 2
         x: 1617
@@ -182,14 +204,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1d0bac698d38304c9a00cd2a78ee12c
-      internalID: -1005893789
+      spriteID: f27398c4363a3cb439540353d6853eba
+      internalID: 1837181978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_3
+      name: botones de la interfaz de la pantalla juegabilidad_4
       rect:
         serializedVersion: 2
         x: 196
@@ -204,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd3c1a0c266db544ca63fee586887692
-      internalID: 1180241914
+      spriteID: 8cacb8a8e4501fe46b6f7b6bd983caba
+      internalID: -465715163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_4
+      name: botones de la interfaz de la pantalla juegabilidad_5
       rect:
         serializedVersion: 2
         x: 836
@@ -226,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a47d6af2aa8baa04e84d1cb8c199f916
-      internalID: 1844922386
+      spriteID: fde4e26e69cf803499b689e8ac7c9d54
+      internalID: -1399322766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_5
+      name: botones de la interfaz de la pantalla juegabilidad_6
       rect:
         serializedVersion: 2
-        x: 1615
-        y: 486
-        width: 272
-        height: 283
+        x: 1532
+        y: 817
+        width: 27
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e17c3d8f5dcc89f4bba140bb67524812
-      internalID: 363336938
+      spriteID: b0a79e7ba5b00bd498eb61b5929f952f
+      internalID: 1042964561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_6
+      name: botones de la interfaz de la pantalla juegabilidad_7
       rect:
         serializedVersion: 2
         x: 226
@@ -270,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d033a49fe628eca47b3bd98336ecd530
-      internalID: 1994568927
+      spriteID: 7f24cd5b96534344bb1669ff87bf32fe
+      internalID: -691448395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_7
+      name: botones de la interfaz de la pantalla juegabilidad_8
       rect:
         serializedVersion: 2
         x: 1088
@@ -292,14 +314,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a285d6a71310f34483f4f377710f7b8
-      internalID: 499466842
+      spriteID: c1d85a4fa38f2244e99734ab82123342
+      internalID: -1588354840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_8
+      name: botones de la interfaz de la pantalla juegabilidad_9
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 413
+        width: 272
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fe922a31be06a479401f5110a24013
+      internalID: -1100591565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de la interfaz de la pantalla juegabilidad_10
       rect:
         serializedVersion: 2
         x: 56
@@ -314,14 +358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11d5eb430b67ea54a850a1a48cdcd28f
-      internalID: -1606444945
+      spriteID: 15e0286ac4a29f94cb6aba3a70055613
+      internalID: 1407913130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_9
+      name: botones de la interfaz de la pantalla juegabilidad_11
       rect:
         serializedVersion: 2
         x: 688
@@ -336,14 +380,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c792916d6266d3f46b0ef26bb2392512
-      internalID: 1319433455
+      spriteID: 0f68159c34d577c41ae0002e6075238d
+      internalID: 1679760248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_10
+      name: botones de la interfaz de la pantalla juegabilidad_12
       rect:
         serializedVersion: 2
         x: 880
@@ -358,14 +402,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3c03b92e5da7a94581516b03d998bc6
-      internalID: -1001332560
+      spriteID: d375ca96bf6f08d49bd322d3df2867a8
+      internalID: -2067861478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_11
+      name: botones de la interfaz de la pantalla juegabilidad_13
       rect:
         serializedVersion: 2
         x: 1526
@@ -380,14 +424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51f42c2ba05c02a498becc63471dc3d0
-      internalID: 1983704490
+      spriteID: f388fc04118f76e43b0e7ab87eaf4087
+      internalID: -1221364078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_12
+      name: botones de la interfaz de la pantalla juegabilidad_14
       rect:
         serializedVersion: 2
         x: 54
@@ -402,14 +446,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6fb5fd73c7647e469dd9add1bcdca86
-      internalID: -368462475
+      spriteID: 19ce9443ab4f49b429c356344a275860
+      internalID: 1365896241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_13
+      name: botones de la interfaz de la pantalla juegabilidad_15
       rect:
         serializedVersion: 2
         x: 1275
@@ -424,14 +468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a56b6869bef16454398226e7188bbb69
-      internalID: -1293326273
+      spriteID: f7eabca286f083d4483b4058154c8a44
+      internalID: -694773298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_14
+      name: botones de la interfaz de la pantalla juegabilidad_16
       rect:
         serializedVersion: 2
         x: 1686
@@ -446,14 +490,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4136e5ee1e23a184583fe385e50512c9
-      internalID: -612085238
+      spriteID: 030d2fc46c8a7164a9cb128aaeb627ef
+      internalID: 1576279486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: botones de la interfaz de la pantalla juegabilidad_15
+      name: botones de la interfaz de la pantalla juegabilidad_17
       rect:
         serializedVersion: 2
         x: 55
@@ -468,8 +512,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7703781136f328a489cb5c0c835bf773
-      internalID: -630855896
+      spriteID: fd3b8dbcf5fcf0c47b4d3220b99b448a
+      internalID: 111229108
       vertices: []
       indices: 
       edges: []
@@ -478,7 +522,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7acca6cf0143ace49abbc6a8c7b6c230
+    spriteID: 82b5bb72c98af784881cea4787b5fa5b
     internalID: 0
     vertices: []
     indices: 
@@ -488,22 +532,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      botones de la interfaz de la pantalla juegabilidad_0: 1498005047
-      botones de la interfaz de la pantalla juegabilidad_1: -1868414498
-      botones de la interfaz de la pantalla juegabilidad_10: -1001332560
-      botones de la interfaz de la pantalla juegabilidad_11: 1983704490
-      botones de la interfaz de la pantalla juegabilidad_12: -368462475
-      botones de la interfaz de la pantalla juegabilidad_13: -1293326273
-      botones de la interfaz de la pantalla juegabilidad_14: -612085238
-      botones de la interfaz de la pantalla juegabilidad_15: -630855896
-      botones de la interfaz de la pantalla juegabilidad_2: -1005893789
-      botones de la interfaz de la pantalla juegabilidad_3: 1180241914
-      botones de la interfaz de la pantalla juegabilidad_4: 1844922386
-      botones de la interfaz de la pantalla juegabilidad_5: 363336938
-      botones de la interfaz de la pantalla juegabilidad_6: 1994568927
-      botones de la interfaz de la pantalla juegabilidad_7: 499466842
-      botones de la interfaz de la pantalla juegabilidad_8: -1606444945
-      botones de la interfaz de la pantalla juegabilidad_9: 1319433455
+      botones de la interfaz de la pantalla juegabilidad_0: 1589713559
+      botones de la interfaz de la pantalla juegabilidad_1: 271144874
+      botones de la interfaz de la pantalla juegabilidad_10: 1407913130
+      botones de la interfaz de la pantalla juegabilidad_11: 1679760248
+      botones de la interfaz de la pantalla juegabilidad_12: -2067861478
+      botones de la interfaz de la pantalla juegabilidad_13: -1221364078
+      botones de la interfaz de la pantalla juegabilidad_14: 1365896241
+      botones de la interfaz de la pantalla juegabilidad_15: -694773298
+      botones de la interfaz de la pantalla juegabilidad_16: 1576279486
+      botones de la interfaz de la pantalla juegabilidad_17: 111229108
+      botones de la interfaz de la pantalla juegabilidad_2: -1564012575
+      botones de la interfaz de la pantalla juegabilidad_3: 1837181978
+      botones de la interfaz de la pantalla juegabilidad_4: -465715163
+      botones de la interfaz de la pantalla juegabilidad_5: -1399322766
+      botones de la interfaz de la pantalla juegabilidad_6: 1042964561
+      botones de la interfaz de la pantalla juegabilidad_7: -691448395
+      botones de la interfaz de la pantalla juegabilidad_8: -1588354840
+      botones de la interfaz de la pantalla juegabilidad_9: -1100591565
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

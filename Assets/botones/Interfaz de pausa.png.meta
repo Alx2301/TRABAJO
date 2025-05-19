@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 51d7815f62408134595798a4183de324
+guid: 70c5c1d39df44344cb5903cb802bc764
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,19 +94,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -136,29 +123,73 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Interfaz de pausa 1_0
+      name: Interfaz de pausa_0
       rect:
         serializedVersion: 2
         x: 32
-        y: 806
-        width: 642
-        height: 219
+        y: 822
+        width: 573
+        height: 203
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6f7b727041ea0041a92b6c3e67c2801
-      internalID: 1024699370
+      spriteID: 28b8252747f324e439c0932faff1d726
+      internalID: -1839763013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_1
+      name: Interfaz de pausa_1
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 796
+        width: 120
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bed2f204e5829c45910394b99ec85e2
+      internalID: -593275454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz de pausa_2
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 893
+        width: 633
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362d730bf1ed711408053eb31727dead
+      internalID: 1502644393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz de pausa_3
       rect:
         serializedVersion: 2
         x: 1645
@@ -166,65 +197,65 @@ TextureImporter:
         width: 199
         height: 717
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af4364447941f384da6eda28c4796250
-      internalID: -1141314288
+      spriteID: 60a9c739596fc85419e406d01f18c234
+      internalID: -1970487737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_2
+      name: Interfaz de pausa_4
       rect:
         serializedVersion: 2
         x: 32
-        y: 540
-        width: 691
-        height: 242
+        y: 596
+        width: 573
+        height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58a47f6498b64564eb9a98367be2bc75
-      internalID: 692599337
+      spriteID: 5ef83dbfe1ff4bf46ab08dcffeb4f624
+      internalID: 989258366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_3
+      name: Interfaz de pausa_5
       rect:
         serializedVersion: 2
-        x: 735
-        y: 378
+        x: 776
+        y: 497
         width: 606
         height: 334
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e008b20ebb44dd343b8a929829aa22b6
-      internalID: 187537728
+      spriteID: a5d43e06e10026742b1f8da74a0ba917
+      internalID: 1248516466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_4
+      name: Interfaz de pausa_6
       rect:
         serializedVersion: 2
         x: 42
@@ -232,43 +263,87 @@ TextureImporter:
         width: 573
         height: 180
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 305063b58e64d9048bfd2cec5003eb44
-      internalID: -982584966
+      spriteID: 03d6f33fa1383224c9a05751b29d72ee
+      internalID: 1450145485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_5
+      name: Interfaz de pausa_7
       rect:
         serializedVersion: 2
-        x: 715
-        y: 16
-        width: 602
-        height: 362
+        x: 646
+        y: 262
+        width: 46
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 916d5a5e84052e24fb3a92d34954000a
-      internalID: -595034486
+      spriteID: dd5a6ee2519a7f542a0019fdfd8ee59d
+      internalID: -1563093415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_6
+      name: Interfaz de pausa_8
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 254
+        width: 211
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a34eaff2bdf4d4989342f4a1764a90
+      internalID: -1127733698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz de pausa_9
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 236
+        width: 81
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36380fba917e39e47b23410abce33fe0
+      internalID: -306752842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz de pausa_10
       rect:
         serializedVersion: 2
         x: 63
@@ -276,27 +351,93 @@ TextureImporter:
         width: 573
         height: 258
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db5670d31203a634e8a260b9e12fcb6b
-      internalID: 1212913984
+      spriteID: 472e8a06d2d8a1145b53cdf4d94411f7
+      internalID: 970768029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interfaz de pausa 1_7
+      name: Interfaz de pausa_11
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 16
+        width: 602
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ee59aa714ec984f9a4f0369582fee4
+      internalID: -1884652789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz de pausa_12
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 150
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6903378e009e84cba5a9f20a48900d
+      internalID: -173359855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz de pausa_13
       rect:
         serializedVersion: 2
         x: 1688
         y: 40
         width: 170
         height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8feddfed9628b854db19208f5c7a9620
+      internalID: 2060107717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Interfaz de pausa_14
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 124
+        width: 151
+        height: 299
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,8 +446,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9df99c44aa212774db1de10ac6406611
-      internalID: 1441092010
+      spriteID: 4571ca748da8fb344a112d1881c5a015
+      internalID: -466185040
       vertices: []
       indices: 
       edges: []
@@ -315,7 +456,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: aba0054a8c8aa9b4fae5c7a571bcd4b2
+    spriteID: f399ef9a8e78a0549873023520c22dc6
     internalID: 0
     vertices: []
     indices: 
@@ -325,14 +466,21 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Interfaz de pausa 1_0: 1024699370
-      Interfaz de pausa 1_1: -1141314288
-      Interfaz de pausa 1_2: 692599337
-      Interfaz de pausa 1_3: 187537728
-      Interfaz de pausa 1_4: -982584966
-      Interfaz de pausa 1_5: -595034486
-      Interfaz de pausa 1_6: 1212913984
-      Interfaz de pausa 1_7: 1441092010
+      Interfaz de pausa_0: -1839763013
+      Interfaz de pausa_1: -593275454
+      Interfaz de pausa_10: 970768029
+      Interfaz de pausa_11: -1884652789
+      Interfaz de pausa_12: -173359855
+      Interfaz de pausa_13: 2060107717
+      Interfaz de pausa_14: -466185040
+      Interfaz de pausa_2: 1502644393
+      Interfaz de pausa_3: -1970487737
+      Interfaz de pausa_4: 989258366
+      Interfaz de pausa_5: 1248516466
+      Interfaz de pausa_6: 1450145485
+      Interfaz de pausa_7: -1563093415
+      Interfaz de pausa_8: -1127733698
+      Interfaz de pausa_9: -306752842
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,53 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEditor;
+
+public class MenuJugar : MonoBehaviour
+
+{
+    public GameObject panelinv;
+    public GameObject panelRecompensas;
+    public GameObject panelpuerta;
+
+    public TextMeshProUGUI textopuntos;
+    private int puntos = 0;
+
+    void Start()
+    {
+        
+        panelinv.SetActive(false);
+        textopuntos.text = "Puntos: " + puntos;
+        panelRecompensas.SetActive(false);
+    }
+
+    public void añadirpuntos(int cantidad)
+    {
+        puntos += cantidad;
+        textopuntos.text = "Puntos: " + puntos;
+
+        if (puntos == 4000)
+        {
+            panelRecompensas.SetActive(true);
+            panelpuerta.SetActive(false);
+        }
+    }
+
+    public void GuardarPuntos()
+    {
+        PlayerPrefs.SetInt("Puntos guardados", puntos);
+        PlayerPrefs.Save();
+        Debug.Log("Puntos guardados manualmente.");
+    }
+    public void AbrirInven()
+    {
+        panelinv.SetActive(true);
+    }
+    public void CerrarInven()
+    {
+        panelinv.SetActive(false);
+    }
+}

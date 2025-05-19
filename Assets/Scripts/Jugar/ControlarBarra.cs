@@ -13,7 +13,7 @@ public class ControlarBarra : MonoBehaviour
 {
     public Image barrafondovida;
     public Image barrafondoest;
-    public InputField barrafondomana;
+    public Image barrafondomana;
     public float vidaMax = 100f;
     public float estaminaMax = 100f;
     public float manaMax = 100f;
@@ -89,7 +89,7 @@ public class ControlarBarra : MonoBehaviour
     public void recuperarE(float cantidad2)
     {
         estaminaactual += cantidad2;
-        if (estaminaactual > 0)
+        if (estaminaactual > estaminaMax)
         {
             estaminaactual = estaminaMax;
             ActualizarBarra();
@@ -102,7 +102,7 @@ public class ControlarBarra : MonoBehaviour
     public void recuperarM(float cantidad3)
     {
         manaactual += cantidad3;
-        if (manaactual > 0)
+        if (manaactual > manaMax)
         {
             manaactual = manaMax;
             ActualizarBarra();
