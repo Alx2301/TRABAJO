@@ -48,6 +48,11 @@ public class GestorMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Menu Pausa");
     }
+    public void MenuMapa()
+    {
+        SceneManager.LoadScene("Menu mapa");
+    }
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

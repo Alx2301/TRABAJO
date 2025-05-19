@@ -13,26 +13,25 @@ public class CambioIdiomas5 : MonoBehaviour
     public TextMeshProUGUI titulotutod;
     public TextMeshProUGUI titulotutoa;
     public TextMeshProUGUI titulotutos;
-    public TextMeshProUGUI titulow;
+    public TextMeshProUGUI titulotutow;
     public TextMeshProUGUI textd;
     public TextMeshProUGUI texta;
     public TextMeshProUGUI texts;
     public TextMeshProUGUI textw;
-    public TextMeshProUGUI titulocorrer;
-    public TextMeshProUGUI tituloabririnventario;
-    public TextMeshProUGUI titulorecarga;
-    public TextMeshProUGUI titulointeracionentonrno;
-    public TextMeshProUGUI titulocubrirse;
+    public TextMeshProUGUI titulorecompesa;
+    public TextMeshProUGUI titulomision;
+    public TextMeshProUGUI textmision;
+    public TextMeshProUGUI textpuntos;
     
 
     public int i = 0;
 
 
-    string[,] matrizIdiomas = new string[3, 13]
+    string[,] matrizIdiomas = new string[3, 9]
     {
-        {"Teclas","Atacar","Adelante","Derecha","Izquierda", "Atrás","Agachar","Saltar","Correr","Abrir Inventario","Recarga de arma/habilidad","Abrir/Recoger (Interacción con el entorno)", "Cubrirse"},
-        {"Keys","Attack","Forward","Right","Left","Behind","Crouch","Jump","Run","Open inventory","Weapon/Skill Reload", "Open/Pick up (Interaction with the environment)", "Cover up"},
-        {"Teclas","Ataque","Diante","Dereita","Ezquerda","Atrás","Pato","Salto","Correr","Abrir Inventario","Recarga arma/habilidade", "Abrir/Recoller (interacción co ambente)", "Poñerse a cuberto"}
+        {"Tutoríal","Para ir hacia arriba, pulsa:", "Para ir a la derecha, pulsa: ", "Para ir a la izquierda, pulsa: ", "Para ir hacia abajo, pulsa: ", "Recompensa","Misión","Tienes que abrir la puerta antes de que te atrapen y mueras.","Puntos: "},
+        {"Tutorial","To go up, press:", "To go right, press: ", "To go left, press: ", "To go down, press: ", "Reward","Mission","You have to open the door before they catch you and you die.","Points: "},
+        {"Tutorial", "Para subir, preme:", "Para ir á dereita, preme:", "Para ir á esquerda, preme:", "Para baixar, preme:", "Recompensa", "Misión","Tes que abrir a porta antes de que te atrapen e morras.","Puntos: "}
     };
 
     
@@ -40,7 +39,21 @@ public class CambioIdiomas5 : MonoBehaviour
     void Start()
     {
         int i = PlayerPrefs.GetInt("Idioma", 0);
+        titulotutoa.text = matrizIdiomas[i,0];
+        titulotutod.text = matrizIdiomas[i, 0];
+        titulotutos.text = matrizIdiomas[i, 0];
+        titulotutow.text = matrizIdiomas[i, 0];
 
+        textw.text = matrizIdiomas[i,1];
+        textd.text = matrizIdiomas[i,2];
+        texta.text = matrizIdiomas[i,3];
+        texts.text = matrizIdiomas[i,4];
+
+        titulorecompesa.text = matrizIdiomas[i, 5];
+        titulomision.text = matrizIdiomas[i,6];
+        textmision.text = matrizIdiomas[i,7];
+
+        textpuntos.text = matrizIdiomas[i,8];
         
         
 
@@ -54,10 +67,21 @@ public class CambioIdiomas5 : MonoBehaviour
 
     void ActualizarTextos()
     {
-        tituloteclas.text = matrizIdiomas[i, 0];
-        
-        
+        titulotutoa.text = matrizIdiomas[i, 0];
+        titulotutod.text = matrizIdiomas[i, 0];
+        titulotutos.text = matrizIdiomas[i, 0];
+        titulotutow.text = matrizIdiomas[i, 0];
 
+        textw.text = matrizIdiomas[i, 1];
+        textd.text = matrizIdiomas[i, 2];
+        texta.text = matrizIdiomas[i, 3];
+        texts.text = matrizIdiomas[i, 4];
+
+        titulorecompesa.text = matrizIdiomas[i, 5];
+        titulomision.text = matrizIdiomas[i, 6];
+        textmision.text = matrizIdiomas[i, 7];
+
+        textpuntos.text = matrizIdiomas[i, 8];
     }
 
     void GuardarDatos ()
