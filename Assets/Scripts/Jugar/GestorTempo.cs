@@ -31,19 +31,32 @@ public class GestorTempo : MonoBehaviour
     public Image barraVida;
     public Image barraEstamina;
     public float duracion = 10f;
+
+    [Header ("Tiene que seguir funcionando, pase lo pase")]
     public GameObject paneljuegof;
     public Button botonpausa;
     public Animator anipanelmi;
+    public Button reiniciar;
+    public GameObject panelMAPA;
+
+    public GameObject panelinv;
 
     private float tiempoRestante;
     private bool temporizadorActivo = false;
-    private int puntos;
+    public TextMeshProUGUI textopuntos;
+    private int puntos = 0;
 
     void Start()
     {
         puntos = PlayerPrefs.GetInt("Puntos guardados", 0);
+
         foreach (GameObject panel in paneles)
             panel.SetActive(false);
+
+        if (panelMAPA != null)
+        {
+            panelMAPA.SetActive(false);
+        }
 
         if (panelTempo != null)
         {
@@ -66,21 +79,34 @@ public class GestorTempo : MonoBehaviour
 
         if (panelPuntos != null)
         {
-            if (puntos == 4000)
+            if (puntos >= 4000)
             {
-                panelPuntos.SetActive(false);
-                panelre.SetActive(true);
-                paneljuegof.SetActive(true);
-                panelFinal.SetActive(false) ;
+                if (Input.GetButton("BOTON RE"))
+                {
+                    RestaurarPuntos();
+                }
+                if (Input.GetButton("BOTON R"))
+                {
+                    RestaurarPuntos();
+                }
+
             }
             else
             {
                 panelPuntos.SetActive(false);
                 panelre.SetActive(false);
+                panelMAPA.SetActive(false);
+                panelTempo.SetActive(false);
+                paneljuegof.SetActive(false);
+                panelMision.SetActive(false);
             }
 
-        }
+            
+            ;
 
+        }
+        panelinv.SetActive(false);
+        ActualizarTexto();
         Invoke(nameof(MostrarPasoActual), 1f);
     }
 
@@ -103,6 +129,54 @@ public class GestorTempo : MonoBehaviour
             botonpausa.onClick.Invoke();
         }
         RevisarPuntos();
+
+        if (Input.GetButtonDown("BOTON RE"))
+        {
+            RestaurarPuntos();
+        }
+        if (Input.GetButtonDown("BOTON R"))
+        {
+            RestaurarPuntos();
+        }
+    }
+    public void añadirpuntos(int cantidad)
+    {
+        puntos += cantidad;
+        ActualizarTexto();
+        GuardarPuntos();
+    }
+
+    public void GuardarPuntos()
+    {
+        PlayerPrefs.SetInt("Puntos guardados", puntos);
+        PlayerPrefs.Save();
+        Debug.Log("Puntos guardados manualmente: " + puntos);
+    }
+
+    private void ActualizarTexto()
+    {
+        if (textopuntos != null)
+            textopuntos.text = " " + puntos;
+    }
+
+    public void AbrirInven()
+    {
+        panelinv?.SetActive(true);
+    }
+
+    public void CerrarInven()
+    {
+        panelinv?.SetActive(false);
+    }
+
+    public void ActivarMApa()
+    {
+        panelMAPA.SetActive(true);
+    }
+
+    public void DesactivarMapa()
+    {
+        panelMAPA.SetActive(false);
     }
 
     public void MostrarPanelTiempo(float segundos)
@@ -164,16 +238,19 @@ public class GestorTempo : MonoBehaviour
 
                 if (puntos >= 4000)
                 {
-                    panelPuntos.SetActive(false);
-                    panelre.SetActive(true);
-                    paneljuegof.SetActive(true);
                     RevisarPuntos();
-                    puntos = PlayerPrefs.GetInt("Puntos guardados");
-                    PlayerPrefs.Save();
                 }
                 else
                 {
                     panelPuntos.SetActive(true);
+                    RevisarPuntos();
+
+                    if (Input.GetButton("BOTON CERRAR MAPA"))
+                    {
+                        ActualizarTemporizador();
+                        RevisarPuntos();
+                        PlayerPrefs.Save();
+                    }
                 }
                 
             }
@@ -184,15 +261,18 @@ public class GestorTempo : MonoBehaviour
     public void RestaurarPuntos()
     {
         puntos = 0;
-        PlayerPrefs.DeleteKey("Puntos guardados"); //Elimina el valor guardado
+        PlayerPrefs.SetInt("Puntos guardados", puntos);
         PlayerPrefs.Save();
-
         paneljuegof.SetActive(false);
         panelre.SetActive(false);
-        panelPuntos.SetActive(false);
+        panelPuntos.SetActive(true);
+        panelFinal.SetActive(false);
 
+        IniciarTemporizador();
+        ActualizarTexto();
         Debug.Log("Puntos reiniciados.");
     }
+
 
 
     void IniciarTemporizador()
@@ -272,10 +352,9 @@ public class GestorTempo : MonoBehaviour
 
         if (puntos >= 4000)
         {
-            panelre.SetActive(true);
-            paneljuegof.SetActive(true);
             if (panelPuntos != null)
             {
+                panelre.SetActive(true);
                 panelPuntos.SetActive(false);
             }
                 
@@ -289,9 +368,23 @@ public class GestorTempo : MonoBehaviour
 
         if (puntos >= 4000)
         {
-            panelPuntos?.SetActive(false);
-            panelre?.SetActive(true);
-            paneljuegof?.SetActive(true);
+            panelPuntos.SetActive(false);
+            panelre.SetActive(true);
+            paneljuegof.SetActive(true);
+            PlayerPrefs.Save();
+
+            if (Input.GetButton("BOTON RE"))
+            {
+                RestaurarPuntos();
+                Debug.Log("Puntos reiniciardos a mano");
+                PlayerPrefs.Save();
+            }
+            if (Input.GetButton("BOTON R"))
+            {
+                RestaurarPuntos();
+                Debug.Log("Puntos reiniciardos a mano");
+                PlayerPrefs.Save();
+            }
         }
     }
 

@@ -19,7 +19,7 @@ public class GestorAnimaciones : MonoBehaviour
     public Animator animator4;
     public Animator animator5;
     public GameObject panelU;
-
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

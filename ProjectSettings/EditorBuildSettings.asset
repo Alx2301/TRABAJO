@@ -6,17 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu creditos.unity
-    guid: 01d6ae37ea7afb245ab9dfaf5c1fc321
-  - enabled: 1
-    path: Assets/Scenes/Menu Cargar Partida.unity
-    guid: 543db164ce5d68d45b5a85a68b1d3a6f
-  - enabled: 1
-    path: Assets/Scenes/Menu Jugar/Menu Pausa.unity
-    guid: 94f25e8302f542948829042ca47ab961
-  - enabled: 1
-    path: Assets/Scenes/Menu Jugar/Menu mapa.unity
-    guid: e911b6ce92b62394f9be739bb1ef10b5
+    path: Assets/Scenes/Menu Principal/Menu Principal.unity
+    guid: f9d1961ebe7430b49a2128f69be92dd6
   - enabled: 1
     path: Assets/Scenes/Menu Jugar/Menu Nueva Partida.unity
     guid: e37b562e8ceab97469990e92e82efc36
@@ -36,11 +27,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu opciones/Menu opciones mando.unity
     guid: afc0e850595dfc044b33c2c267411082
   - enabled: 1
-    path: Assets/Scenes/Menu Principal/Menu principal iniciar secion.unity
-    guid: 3495582b6d7a469418e4c0eac930e467
+    path: Assets/Scenes/Menu Jugar/Menu Pausa.unity
+    guid: 94f25e8302f542948829042ca47ab961
   - enabled: 1
-    path: Assets/Scenes/Menu Principal/Menu Principal.unity
-    guid: f9d1961ebe7430b49a2128f69be92dd6
+    path: Assets/Scenes/Menu Cargar Partida.unity
+    guid: 543db164ce5d68d45b5a85a68b1d3a6f
+  - enabled: 1
+    path: Assets/Scenes/Menu creditos.unity
+    guid: 01d6ae37ea7afb245ab9dfaf5c1fc321
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

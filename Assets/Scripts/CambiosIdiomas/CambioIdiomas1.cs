@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class CambioIdiomas1 : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [Header ("Textos a traducir")]
     public TextMeshProUGUI botonEspanoltext;
     public TextMeshProUGUI botonInglestext;
     public TextMeshProUGUI botonGallegotext;
@@ -20,9 +21,7 @@ public class CambioIdiomas1 : MonoBehaviour
     public TextMeshProUGUI titulodialogotext;
     public TextMeshProUGUI botonvolvertext;
 
-
     public int i = 0;
-    
 
     string[,] matrizIdiomas = new string[3, 7]
     {
@@ -30,6 +29,8 @@ public class CambioIdiomas1 : MonoBehaviour
         {"Spanish","English","Galician","Lenguages", "Interface", "Dialogue","Back"},
         {"Español","Inglés","Galego","Idiomas", "Interface", "Diálogo","Atras"}
     };
+
+    
     void Start()
     {
         botonEspanoltext.text = matrizIdiomas[i, 0];
@@ -51,7 +52,6 @@ public class CambioIdiomas1 : MonoBehaviour
         {
             i = 0;
         }
-
         ActualizarTextos();
     }
 
@@ -80,31 +80,30 @@ public class CambioIdiomas1 : MonoBehaviour
     void GuardarDatos ()
     {
         PlayerPrefs.SetInt("Idioma", i);
+        
         PlayerPrefs.Save();
     }
 
     public void Espanol()
     {
         i = 0;
-        PlayerPrefs.SetInt("Idioma", i);
-        PlayerPrefs.Save();
         ActualizarTextos();
-
+        GuardarDatos ();
     }
     public void Galego () 
     {
         i = 2;
-        PlayerPrefs.SetInt("Idioma", i);
-        PlayerPrefs.Save();
         ActualizarTextos();
+        GuardarDatos();
     }
     public void Ingles()
     {
         i = 1;
-        PlayerPrefs.SetInt("Idioma", i);
-        PlayerPrefs.Save();
+        GuardarDatos();
         ActualizarTextos();
     }
+
+    
 
     public void MenuDropDown(int index)
     {
@@ -112,13 +111,17 @@ public class CambioIdiomas1 : MonoBehaviour
         {
             case 0:
                 i=0;
+                
                 break;
             case 1:
                 i=1;
+                
                 break;
             case 2:
                 i=2;
+                
                 break;
+            
         }
     }
 }

@@ -27,14 +27,7 @@ public class MenuJugar : MonoBehaviour
     public void añadirpuntos(int cantidad)
     {
         puntos += cantidad;
-        textopuntos.text = ": " + puntos;
-
-        if (puntos == 4000)
-        {
-            panelRecompensas.SetActive(true);
-            panelpuerta.SetActive(false);
-        }
-
+        textopuntos.text = " " + puntos;
         GuardarPuntos();
     }
 
@@ -42,6 +35,8 @@ public class MenuJugar : MonoBehaviour
     {
         PlayerPrefs.SetInt("Puntos guardados", puntos);
         PlayerPrefs.Save();
+        PlayerPrefs.DeleteKey("Puntos guardados");
+
         Debug.Log("Puntos guardados manualmente.");
     }
 
