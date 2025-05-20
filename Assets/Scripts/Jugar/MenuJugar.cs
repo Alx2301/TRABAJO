@@ -20,20 +20,22 @@ public class MenuJugar : MonoBehaviour
     {
         
         panelinv.SetActive(false);
-        textopuntos.text = "Puntos: " + puntos;
+        textopuntos.text = ": " + puntos;
         panelRecompensas.SetActive(false);
     }
 
     public void añadirpuntos(int cantidad)
     {
         puntos += cantidad;
-        textopuntos.text = "Puntos: " + puntos;
+        textopuntos.text = ": " + puntos;
 
         if (puntos == 4000)
         {
             panelRecompensas.SetActive(true);
             panelpuerta.SetActive(false);
         }
+
+        GuardarPuntos();
     }
 
     public void GuardarPuntos()
@@ -42,6 +44,7 @@ public class MenuJugar : MonoBehaviour
         PlayerPrefs.Save();
         Debug.Log("Puntos guardados manualmente.");
     }
+
     public void AbrirInven()
     {
         panelinv.SetActive(true);

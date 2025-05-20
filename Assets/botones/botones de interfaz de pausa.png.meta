@@ -94,19 +94,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -151,8 +138,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 741ecdd586652824abdf3c1eb07a145a
-      internalID: -1612842366
+      spriteID: ef98db6a7014db44182ad58eb9c39555
+      internalID: 201739495
       vertices: []
       indices: 
       edges: []
@@ -173,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e5261b2c79edea4eabc704e8eafc861
-      internalID: 2074292956
+      spriteID: 797e316d6a08f214784d28c09fff1373
+      internalID: -1100048977
       vertices: []
       indices: 
       edges: []
@@ -195,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f12eb359373081446a3ea198bb75bd71
-      internalID: -29918923
+      spriteID: 00d4eeb93d76e6245b7546f90f0519f2
+      internalID: -1573110934
       vertices: []
       indices: 
       edges: []
@@ -217,8 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28a5259a1f93df24e92785838dd1fdb5
-      internalID: -797170203
+      spriteID: 94c3ef6408befd0409d587415846be13
+      internalID: 1113507496
       vertices: []
       indices: 
       edges: []
@@ -239,8 +226,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e7eecc5c8ecbdc468f04baf345bf8a3
-      internalID: -437435092
+      spriteID: 725cf1223bcac9b4ab13d9ef1131235a
+      internalID: 520097659
       vertices: []
       indices: 
       edges: []
@@ -261,8 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c396f2a14c77f041b69bf36d6a08b91
-      internalID: 1139460219
+      spriteID: df680f5edcae0474eb9c836af405ddb5
+      internalID: 1460658621
       vertices: []
       indices: 
       edges: []
@@ -283,8 +270,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a0884c4776c06c409971f462db69051
-      internalID: 703259757
+      spriteID: 22a1a5079fc27fc459a7801fa6c2e00b
+      internalID: -1235866720
       vertices: []
       indices: 
       edges: []
@@ -305,8 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 515bd68c472e4944896b74c61370c20a
-      internalID: -1394115116
+      spriteID: 3e084088d1601a34f97efcbfe437c2f2
+      internalID: -2120332889
       vertices: []
       indices: 
       edges: []
@@ -327,8 +314,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac5c59f3051259e4b9a964bf9cc59b58
-      internalID: -2013441036
+      spriteID: 9a4fa23112d866e44a4353b7566e3490
+      internalID: -885271195
       vertices: []
       indices: 
       edges: []
@@ -349,8 +336,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb05a3985aa130a4ea3b3486fd66831e
-      internalID: -426199853
+      spriteID: 98c850e791843754db95eaa120e0e4ed
+      internalID: 593532751
       vertices: []
       indices: 
       edges: []
@@ -371,8 +358,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b77ae67134de1334b819ad1ae7e1b5c9
-      internalID: 334599013
+      spriteID: 5eed7baccadbfcb4ea59a4ba5a1de020
+      internalID: -848918402
       vertices: []
       indices: 
       edges: []
@@ -393,8 +380,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ae060a0228fe434bb0a806eabbe16a2
-      internalID: -101798633
+      spriteID: 0e3e6010ddd44804ab573670cbb4c0b8
+      internalID: 446209659
       vertices: []
       indices: 
       edges: []
@@ -415,8 +402,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95f39a308c7c91841a63e03ebd0b2e81
-      internalID: 1857438835
+      spriteID: f8b1b6619c0893040ae6bb2175ed1f22
+      internalID: 1521646573
       vertices: []
       indices: 
       edges: []
@@ -437,8 +424,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8af17b5b3751644083ae4ecf148eedc
-      internalID: 659935264
+      spriteID: df14d02bfecf57749b01a310fb348db3
+      internalID: -2007906332
       vertices: []
       indices: 
       edges: []
@@ -459,8 +446,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68f8821f74bf0be439490cbdfadaf4aa
-      internalID: -1914482687
+      spriteID: 222fa90cc34c4fa48b6ae61fe4f37c30
+      internalID: 460181168
       vertices: []
       indices: 
       edges: []
@@ -481,8 +468,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bca6ae99ad40214eb8a3b1c3115a9e9
-      internalID: 1228839608
+      spriteID: 0fdb6fea9cb7707489857c01497eb60e
+      internalID: -1979876723
       vertices: []
       indices: 
       edges: []
@@ -503,8 +490,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7451841ff1312114385fb72918ea5e18
-      internalID: 2103085130
+      spriteID: 365658e221b131c479a494de5f4bd8a9
+      internalID: -346349253
       vertices: []
       indices: 
       edges: []
@@ -525,8 +512,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41aa1ef902dd47b44b36ef0c8bc604b0
-      internalID: 1320892504
+      spriteID: 56920cc89822e5b41a8426e406eb035e
+      internalID: -928587403
       vertices: []
       indices: 
       edges: []
@@ -547,8 +534,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12a5313406f4dd748962a1d722e391b2
-      internalID: -533530977
+      spriteID: e2c6eee061a4d3b46adf455084d08d70
+      internalID: -1981626138
       vertices: []
       indices: 
       edges: []
@@ -569,8 +556,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2aa5e4cb514d1d14ba8ed45302049a59
-      internalID: 1177882760
+      spriteID: 26229d0eb972c794384b027a014ff164
+      internalID: -1874074362
       vertices: []
       indices: 
       edges: []
@@ -591,8 +578,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1d412db08b39e24c85de7443400c712
-      internalID: 1549546128
+      spriteID: 27021a977ff16804c8c71c80862a71b0
+      internalID: 344865785
       vertices: []
       indices: 
       edges: []
@@ -613,8 +600,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1f6f16cc8598894f96f8f5681d2dcca
-      internalID: 706703748
+      spriteID: e7691d927f15e3f4b9376a4180f038a2
+      internalID: 821345414
       vertices: []
       indices: 
       edges: []
@@ -635,8 +622,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fea3bc7e107acd241866cb52cebe9c2f
-      internalID: 128826899
+      spriteID: 03845ea0ed7846b4d94d3db1d524a5bf
+      internalID: 31937554
       vertices: []
       indices: 
       edges: []
@@ -657,8 +644,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59e5438d96416ca429b0f19dc6aeb8fc
-      internalID: 847097966
+      spriteID: 2815ba02486a72f4fa6d61de5c374f3e
+      internalID: 1157915728
       vertices: []
       indices: 
       edges: []
@@ -679,8 +666,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be14bea93186f2242838a378961d165c
-      internalID: 1052398623
+      spriteID: 8cbee01e0b0b85244ae6970ad0b79213
+      internalID: -666341791
       vertices: []
       indices: 
       edges: []
@@ -701,8 +688,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6c3475c980a7e1479e3bdb7c0aae01d
-      internalID: 1596543010
+      spriteID: c086d05118bb3e54f8efd10e904d0a08
+      internalID: 883500535
       vertices: []
       indices: 
       edges: []
@@ -723,8 +710,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89997eaae52b4f5488f79dcca52f0648
-      internalID: 2067445172
+      spriteID: 9d0b5fb9c5a547f4f8aa7b627fd02d4f
+      internalID: -1922991499
       vertices: []
       indices: 
       edges: []
@@ -745,8 +732,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 486618e26d7ed50489bfefc79c13e631
-      internalID: 605665075
+      spriteID: 9e3715b274e0c8e4cbc337db396d621e
+      internalID: -413001523
       vertices: []
       indices: 
       edges: []
@@ -767,8 +754,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 738b3c9f37d510f41a5e6e88385fb3d1
-      internalID: 1919596326
+      spriteID: ad0ee5dcc0ca6ac4aa732509dc9829bd
+      internalID: 371843825
       vertices: []
       indices: 
       edges: []
@@ -789,8 +776,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa4eef4bc4100904d83ec45195db4161
-      internalID: 744074502
+      spriteID: 7d9db2db44a7d84478fa5be17efa6ca9
+      internalID: 1362829811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_30
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 219
+        width: 181
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d1d9f120eca704183aed3c98dc604b
+      internalID: -1196808925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones de interfaz de pausa_31
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 218
+        width: 184
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f843a8cd4d161dd43833a17439b8483e
+      internalID: 372286875
       vertices: []
       indices: 
       edges: []
@@ -799,7 +830,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9a5d40a7eab648b40b2f2b513a8f844d
+    spriteID: 8577f675c3443994f94e0e07fe6b0a87
     internalID: 0
     vertices: []
     indices: 
@@ -809,36 +840,38 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      botones de interfaz de pausa_0: -1612842366
-      botones de interfaz de pausa_1: 2074292956
-      botones de interfaz de pausa_10: 334599013
-      botones de interfaz de pausa_11: -101798633
-      botones de interfaz de pausa_12: 1857438835
-      botones de interfaz de pausa_13: 659935264
-      botones de interfaz de pausa_14: -1914482687
-      botones de interfaz de pausa_15: 1228839608
-      botones de interfaz de pausa_16: 2103085130
-      botones de interfaz de pausa_17: 1320892504
-      botones de interfaz de pausa_18: -533530977
-      botones de interfaz de pausa_19: 1177882760
-      botones de interfaz de pausa_2: -29918923
-      botones de interfaz de pausa_20: 1549546128
-      botones de interfaz de pausa_21: 706703748
-      botones de interfaz de pausa_22: 128826899
-      botones de interfaz de pausa_23: 847097966
-      botones de interfaz de pausa_24: 1052398623
-      botones de interfaz de pausa_25: 1596543010
-      botones de interfaz de pausa_26: 2067445172
-      botones de interfaz de pausa_27: 605665075
-      botones de interfaz de pausa_28: 1919596326
-      botones de interfaz de pausa_29: 744074502
-      botones de interfaz de pausa_3: -797170203
-      botones de interfaz de pausa_4: -437435092
-      botones de interfaz de pausa_5: 1139460219
-      botones de interfaz de pausa_6: 703259757
-      botones de interfaz de pausa_7: -1394115116
-      botones de interfaz de pausa_8: -2013441036
-      botones de interfaz de pausa_9: -426199853
+      botones de interfaz de pausa_0: 201739495
+      botones de interfaz de pausa_1: -1100048977
+      botones de interfaz de pausa_10: -848918402
+      botones de interfaz de pausa_11: 446209659
+      botones de interfaz de pausa_12: 1521646573
+      botones de interfaz de pausa_13: -2007906332
+      botones de interfaz de pausa_14: 460181168
+      botones de interfaz de pausa_15: -1979876723
+      botones de interfaz de pausa_16: -346349253
+      botones de interfaz de pausa_17: -928587403
+      botones de interfaz de pausa_18: -1981626138
+      botones de interfaz de pausa_19: -1874074362
+      botones de interfaz de pausa_2: -1573110934
+      botones de interfaz de pausa_20: 344865785
+      botones de interfaz de pausa_21: 821345414
+      botones de interfaz de pausa_22: 31937554
+      botones de interfaz de pausa_23: 1157915728
+      botones de interfaz de pausa_24: -666341791
+      botones de interfaz de pausa_25: 883500535
+      botones de interfaz de pausa_26: -1922991499
+      botones de interfaz de pausa_27: -413001523
+      botones de interfaz de pausa_28: 371843825
+      botones de interfaz de pausa_29: 1362829811
+      botones de interfaz de pausa_3: 1113507496
+      botones de interfaz de pausa_30: -1196808925
+      botones de interfaz de pausa_31: 372286875
+      botones de interfaz de pausa_4: 520097659
+      botones de interfaz de pausa_5: 1460658621
+      botones de interfaz de pausa_6: -1235866720
+      botones de interfaz de pausa_7: -2120332889
+      botones de interfaz de pausa_8: -885271195
+      botones de interfaz de pausa_9: 593532751
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
