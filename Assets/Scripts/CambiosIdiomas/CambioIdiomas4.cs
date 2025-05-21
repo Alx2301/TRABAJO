@@ -23,23 +23,24 @@ public class CambioIdiomas4 : MonoBehaviour
     public TextMeshProUGUI titulorecarga;
     public TextMeshProUGUI titulointeracionentonrno;
     public TextMeshProUGUI titulocubrirse;
+    public TextMeshProUGUI botonvolver;
     
 
-    public int i = 0;
+    public int i;
 
 
-    string[,] matrizIdiomas = new string[3, 13]
+    string[,] matrizIdiomas = new string[3, 14]
     {
-        {"Teclas","Atacar","Adelante","Derecha","Izquierda", "Atrás","Agachar","Saltar","Correr","Abrir Inventario","Recarga de arma/habilidad","Abrir/Recoger (Interacción con el entorno)", "Cubrirse"},
-        {"Keys","Attack","Forward","Right","Left","Behind","Crouch","Jump","Run","Open inventory","Weapon/Skill Reload", "Open/Pick up (Interaction with the environment)", "Cover up"},
-        {"Teclas","Ataque","Diante","Dereita","Ezquerda","Atrás","Pato","Salto","Correr","Abrir Inventario","Recarga arma/habilidade", "Abrir/Recoller (interacción co ambente)", "Poñerse a cuberto"}
+        {"Teclas","Atacar","Adelante","Derecha","Izquierda", "Atrás","Agachar","Saltar","Correr","Abrir Inventario","Recarga de arma/habilidad","Abrir/Recoger (Interacción con el entorno)", "Cubrirse","Volver"},
+        {"Keys","Attack","Forward","Right","Left","Behind","Crouch","Jump","Run","Open inventory","Weapon/Skill Reload", "Open/Pick up (Interaction with the environment)", "Cover up","Back"},
+        {"Teclas","Ataque","Diante","Dereita","Ezquerda","Atrás","Pato","Salto","Correr","Abrir Inventario","Recarga arma/habilidade", "Abrir/Recoller (interacción co ambente)", "Poñerse a cuberto", "Atras"}
     };
 
     
     //organizado de 0 al 13 del orden que lo puse en public
     void Start()
     {
-        int i = PlayerPrefs.GetInt("Idioma", 0);
+        i = PlayerPrefs.GetInt("Idioma", 0);
 
         tituloteclas.text = matrizIdiomas[i,0];
         tituloatacar.text = matrizIdiomas[i, 1];
@@ -54,6 +55,7 @@ public class CambioIdiomas4 : MonoBehaviour
         titulorecarga.text = matrizIdiomas[i,10];
         titulointeracionentonrno.text = matrizIdiomas[i,11];
         titulocubrirse.text = matrizIdiomas[i,12];
+        botonvolver.text = matrizIdiomas[i,13];
         
 
     }
@@ -79,6 +81,8 @@ public class CambioIdiomas4 : MonoBehaviour
         titulorecarga.text = matrizIdiomas[i, 10];
         titulointeracionentonrno.text = matrizIdiomas[i, 11];
         titulocubrirse.text = matrizIdiomas[i, 12];
+        botonvolver.text= matrizIdiomas[i,13];
+        GuardarDatos();
         
 
     }
@@ -91,7 +95,7 @@ public class CambioIdiomas4 : MonoBehaviour
 
   
 
-    public void Menu(int index)
+    public void MenuTeclas(int index)
     {
         switch (index)
         {

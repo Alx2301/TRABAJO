@@ -3293,7 +3293,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 504642413}
         m_TargetAssemblyTypeName: GestorMenu, Assembly-CSharp
-        m_MethodName: CambiarOpIdiomas
+        m_MethodName: IrAConfiguracion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

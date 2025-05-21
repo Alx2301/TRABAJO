@@ -48,14 +48,23 @@ public class GestorMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Menu Pausa");
     }
-    public void MenuMapa()
+    public void IrAConfiguracion()
     {
-        SceneManager.LoadScene("Menu mapa");
+        // Guardamos el nombre de la escena actual
+        PlayerPrefs.SetString("Menu Nueva Partida", UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        PlayerPrefs.Save();
+
+        // Cambiamos a la escena de Configuración
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Menu opciones idiomas");
     }
-    public void Pausa()
+    public void VolverEscenaAnterior()
     {
-        SceneManager.LoadScene("Menu Pausa");
+        string escenaAnterior = PlayerPrefs.GetString("Menu Nueva Partida", "Menu Principal"); // valor por defecto
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene(escenaAnterior);
     }
+
+
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
