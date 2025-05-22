@@ -23,6 +23,11 @@ public class GestorDatosVoliumen : MonoBehaviour
     private float valorguardadohabilidades;
     private float valorguardadoentorno;
 
+    [Header("Flechas y volver")]
+    public Button botonVolver;
+    public Button botonDe;
+    public Button botonIz;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -56,7 +61,26 @@ public class GestorDatosVoliumen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            botonVolver.onClick.Invoke();
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            botonDe.onClick.Invoke();
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            botonDe.onClick.Invoke();
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            botonIz.onClick.Invoke();
+        }
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            botonIz.onClick.Invoke();
+        }
     }
 
     void GuardarValorMusica(float valor)
@@ -106,4 +130,6 @@ public class GestorDatosVoliumen : MonoBehaviour
         PlayerPrefs.Save();
         Debug.Log("Valor Guardado");
     }
+
+
 }

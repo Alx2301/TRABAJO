@@ -21,6 +21,10 @@ public class CambioIdiomas1 : MonoBehaviour
     public TextMeshProUGUI titulodialogotext;
     public TextMeshProUGUI botonvolvertext;
 
+    public Button botonVolver;
+    public Button botonIz;
+    public Button botonDe;
+
     public int i = 0;
 
     string[,] matrizIdiomas = new string[3, 7]
@@ -59,7 +63,26 @@ public class CambioIdiomas1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            botonVolver.onClick.Invoke();
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            botonDe.onClick.Invoke();
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            botonDe.onClick.Invoke();
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            botonIz.onClick.Invoke();
+        }
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            botonIz.onClick.Invoke();
+        }
     }
 
     void ActualizarTextos()

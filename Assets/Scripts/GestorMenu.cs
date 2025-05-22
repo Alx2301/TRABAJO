@@ -51,7 +51,7 @@ public class GestorMenu : MonoBehaviour
     public void IrAConfiguracion()
     {
         // Guardamos el nombre de la escena actual
-        PlayerPrefs.SetString("Menu Nueva Partida", UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        PlayerPrefs.SetString("Menu Actual", UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
         PlayerPrefs.Save();
 
         // Cambiamos a la escena de Configuración
@@ -59,11 +59,14 @@ public class GestorMenu : MonoBehaviour
     }
     public void VolverEscenaAnterior()
     {
-        string escenaAnterior = PlayerPrefs.GetString("Menu Nueva Partida", "Menu Principal"); // valor por defecto
+        string escenaAnterior = PlayerPrefs.GetString("Menu Actual", "Menu Principal"); // valor por defecto
 
         UnityEngine.SceneManagement.SceneManager.LoadScene(escenaAnterior);
     }
-
+    public void MenuGuardar()
+    {
+        SceneManager.LoadScene("Menu guardar partida");
+    }
 
 
 

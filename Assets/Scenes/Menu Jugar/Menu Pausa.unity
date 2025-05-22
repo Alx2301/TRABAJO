@@ -339,7 +339,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 504642415}
-        m_TargetAssemblyTypeName: MenuPausa, Assembly-CSharp
+        m_TargetAssemblyTypeName: MenuPausa1, Assembly-CSharp
         m_MethodName: PanelSSalir
         m_Mode: 1
         m_Arguments:
@@ -446,15 +446,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 504642412}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580e944429dcf1d4ca891d11dbd1a8d3, type: 3}
+  m_Script: {fileID: 11500000, guid: 25678d8fd377e5c40a5dea070fa66e04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panels: {fileID: 917509171}
   panels1: {fileID: 562703463}
   panelg: {fileID: 2054543421}
   bortonsi1: {fileID: 1984307521}
   bortonsi2: {fileID: 1452235663}
-  Op: 0
+  bortonno1: {fileID: 1307155687}
+  bortonno2: {fileID: 1644059884}
+  botonsalir: {fileID: 502657435}
 --- !u!1 &545624614
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,7 +1052,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1702, y: 0}
+  m_AnchoredPosition: {x: 37, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &917509171
@@ -1590,7 +1591,7 @@ GameObject:
   - component: {fileID: 1307155688}
   - component: {fileID: 1307155687}
   m_Layer: 5
-  m_Name: BOTON NO
+  m_Name: BOTON NOS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1661,8 +1662,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 504642415}
-        m_TargetAssemblyTypeName: MenuPausa, Assembly-CSharp
-        m_MethodName: QuitarPanel
+        m_TargetAssemblyTypeName: MenuPausa1, Assembly-CSharp
+        m_MethodName: QuitarPanelS
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2067,7 +2068,19 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 504642413}
         m_TargetAssemblyTypeName: GestorMenu, Assembly-CSharp
-        m_MethodName: CambiarCarP
+        m_MethodName: MenuGuardar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 504642415}
+        m_TargetAssemblyTypeName: MenuPausa1, Assembly-CSharp
+        m_MethodName: PanelGSalir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2264,7 +2277,7 @@ GameObject:
   - component: {fileID: 1644059885}
   - component: {fileID: 1644059884}
   m_Layer: 5
-  m_Name: BOTON NO
+  m_Name: BOTON NOG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2334,9 +2347,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 504642413}
-        m_TargetAssemblyTypeName: GestorMenu, Assembly-CSharp
-        m_MethodName: CambiarMenuPrincipal
+      - m_Target: {fileID: 504642415}
+        m_TargetAssemblyTypeName: MenuPausa1, Assembly-CSharp
+        m_MethodName: QuitarPanelG
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3081,8 +3094,20 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 504642415}
-        m_TargetAssemblyTypeName: MenuPausa, Assembly-CSharp
-        m_MethodName: PanelSSalir
+        m_TargetAssemblyTypeName: MenuPausa1, Assembly-CSharp
+        m_MethodName: PanelGSalir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 504642415}
+        m_TargetAssemblyTypeName: MenuPausa1, Assembly-CSharp
+        m_MethodName: QuitarPanelS
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

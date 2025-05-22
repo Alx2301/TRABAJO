@@ -810,6 +810,9 @@ MonoBehaviour:
   Volumenefectos: {fileID: 39193212}
   Volumenhabilidades: {fileID: 259820637}
   Volumenentorno: {fileID: 362359578}
+  botonVolver: {fileID: 1617905426}
+  botonDe: {fileID: 2013772413}
+  botonIz: {fileID: 392928807}
 --- !u!1 &180452373
 GameObject:
   m_ObjectHideFlags: 0
