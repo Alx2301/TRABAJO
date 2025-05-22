@@ -127,6 +127,7 @@ public class GestorTempo : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             botonpausa.onClick.Invoke();
+            ActualizarTemporizador();
         }
         RevisarPuntos();
 

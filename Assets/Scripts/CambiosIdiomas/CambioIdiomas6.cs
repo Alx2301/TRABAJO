@@ -20,14 +20,16 @@ public class CambioIdiomas6 : MonoBehaviour
     public TextMeshProUGUI botonquitartext2;
     public TextMeshProUGUI botonquitartext3;
     public TextMeshProUGUI botonreproducirtext;
+    public TextMeshProUGUI panelvideo;
+    public TextMeshProUGUI brillo;
 
     public int i;
-
-    string[,] matrizIdiomas = new string[3, 8]
+    private float valorbrilloguardado;
+    string[,] matrizIdiomas = new string[3, 10]
     {
-        {"Gráficos","Tamaño de pantalla","Ayuda","Volver","Guardar","Quitar","Quitar video","Reproducir vídeo"},
-        {"Grafics","Screen Size","Help", "Back", "Save","Remove","Remove video","Play video"},
-        {"Gráficos","Tamaño da pantalla","Axuda", "Atras", "Gardar","Quitar","Quitar video","Reproducir video"}
+        {"Gráficos","Tamaño de pantalla","Ayuda","Volver","Guardar","Quitar","Quitar video","Reproducir vídeo", "Por ahora no podemos ayudar, pero te ofrecemos un video por las molestias.","Brillo"},
+        {"Grafics","Screen Size","Help", "Back", "Save","Remove","Remove video","Play video", "We can't help right now, but we're offering a video for your inconvenience.","Brightness"},
+        {"Gráficos","Tamaño da pantalla","Axuda", "Atras", "Gardar","Quitar","Quitar video","Reproducir video", "Non podemos axudar agora mesmo, pero ofrecémosche un vídeo para as túas molestias.","Brillo"}
     };
     [Header("Botones y paneles")]
     public GameObject panelayuda;
@@ -39,9 +41,19 @@ public class CambioIdiomas6 : MonoBehaviour
     public Button botonreproducir;
     public GameObject panelvideo1;
     public GameObject panelvideo2;
+    public Slider brillovalor;
     private int po;
+
+    [Header("Botones arrow y ad")]
+    public Button botonVolver;
+    public Button botoniz;
+    public Button botonde;
+
     void Start()
     {
+        valorbrilloguardado = PlayerPrefs.GetFloat("ValorBrillo", brillovalor.minValue);
+        brillovalor.value = valorbrilloguardado;
+        brillovalor.onValueChanged.AddListener(GuardarValorMusica);
         i = PlayerPrefs.GetInt("Idioma", 0);
         po = i;
         tituloGraficos.text= matrizIdiomas[i,0];
@@ -53,6 +65,8 @@ public class CambioIdiomas6 : MonoBehaviour
         botonquitartext2.text = matrizIdiomas[i, 6];
         botonquitartext3.text = matrizIdiomas[i,7];
         botonreproducirtext.text = matrizIdiomas[i, 7];
+        panelvideo.text= matrizIdiomas[i,8];
+        brillo.text = matrizIdiomas[i,9];
         ActualizarTextos();
 
         panelayuda.SetActive(false);
@@ -91,6 +105,22 @@ public class CambioIdiomas6 : MonoBehaviour
             }
         }
         
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            botonde.onClick.Invoke();
+        }
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            botoniz.onClick.Invoke();
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            botonde.onClick.Invoke();
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            botoniz.onClick.Invoke();
+        }
 
     }
 
@@ -108,11 +138,11 @@ public class CambioIdiomas6 : MonoBehaviour
         {
             panelvideo1.SetActive(true);
         }
-        else if (po== 1)
+        else if (po == 1)
         {
             panelvideo2.SetActive(true);
         }
-        else if (po ==2)
+        else if (po == 2)
         {
             panelvideo1.SetActive(true);
         }
@@ -123,8 +153,12 @@ public class CambioIdiomas6 : MonoBehaviour
         panelvideo1.SetActive(false);
         panelvideo2.SetActive(false);
     }
-
-
+    void GuardarValorMusica(float valor)
+    {
+        valorbrilloguardado = valor;
+        PlayerPrefs.SetFloat("ValorMusica", valorbrilloguardado);
+        GuardarDatosJugador();
+    }
     void ActualizarTextos()
     {
         tituloGraficos.text = matrizIdiomas[i, 0];
@@ -136,11 +170,15 @@ public class CambioIdiomas6 : MonoBehaviour
         botonquitartext2.text = matrizIdiomas[i, 6];
         botonquitartext3.text = matrizIdiomas[i, 6];
         botonreproducirtext.text = matrizIdiomas[i, 7];
-        
+        panelvideo.text = matrizIdiomas[i, 8];
+        brillo.text = matrizIdiomas[i, 9];
+        GuardarDatosJugador();
     }
-
-
-
+    void GuardarDatosJugador()
+    {
+        PlayerPrefs.Save();
+        Debug.Log("Valor Guardado");
+    }
     public void Menu(int index)
     {
         switch (index)
